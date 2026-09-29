@@ -1,27 +1,54 @@
 [
-    {
-        "name": "Final Crystal",
-        "counter": "blade_hp"
-    },
-    {
-        "name": "Crystal",
-        "counter": "hpcounter2",
-        "iterator": "HPCounterIterator2"
-    },
-    {
-        "name": "Puny Light",
-        "breakable": "st2_hitbox"
-    },
-    {
-        "name": "Giant Light",
-        "counter": "st3_hp"
-    },
-    {
-        "name": "Final Light",
-        "counter": "final_hp"
-    },
-    {
-        "name": "Light",
-        "counter": "rtv_linelaser_count"
-    }
+  {
+    "name": "Final Crystal",
+    "counter": "blade_hp"
+  },
+  {
+    "name": "Crystal",
+    "counter": "hpcounter2",
+    "iterator": "HPCounterIterator2"
+  },
+  {
+    "name": "Puny Light",
+    "breakable": "st2_hitbox"
+  },
+  {
+    "name": "Giant Light",
+    "counter": "st3_hp"
+  },
+  {
+    "name": "Final Light",
+    "counter": "final_hp"
+  },
+  {
+    "name": "Light",
+    "counter": "rtv_linelaser_count"
+  },
+  {
+    "name": "Stable Light",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "counter": "hp_t_stable"
+  },
+  {
+    "name": "Heal Light",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "counter": "hp_t_heal"
+  },
+  {
+    "name": "Rotate Light",
+    "minorhud": true,
+    "multitrigger": true,
+    "showbeaten": false,
+    "templated": true,
+    "timeout": 1.0,
+    "counter": "hp_t_rotate"
+  }
 ]
