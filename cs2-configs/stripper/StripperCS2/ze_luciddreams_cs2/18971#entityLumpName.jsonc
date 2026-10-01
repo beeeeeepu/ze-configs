@@ -14,7 +14,7 @@
         "targetname": "[PR#]particle_snow_trigger&0000"
       },
       "replace": {
-        "origin": "16.000000 1.665039 0.000000"
+        "origin": "16.000000 2.000000 0.000000"
       }
     },
     {
@@ -22,7 +22,7 @@
         "targetname": "[PR#]particle_snow&0000"
       },
       "replace": {
-        "origin": "11.794922 34.665039 -42.000000"
+        "origin": "12.000000 35.000000 -42.000000"
       }
     }
   ]

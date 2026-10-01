@@ -1,5 +1,6 @@
 {
-  // Increase stage 4 end bergan health
+  // [EXG/FYS] Increase stage 4 end bergan health
+  // 50 hp/person -> 80 hp/person (60% increase)
   "modify": [
     {
       "match": {
@@ -24,41 +25,6 @@
             "targetname": "[PR#]Stage4_Ending_Bergan_HP",
             "inputname": "Add",
             "overrideparam": "80",
-            "delay": 0,
-            "timestofire": -1
-          }
-        ]
-      }
-    },
-    // Disable broken blue screen color correction
-    {
-      "match": {
-        "targetname": "[PR#]Stage4_Ending_Bergan_Relay"
-      },
-      "delete": {
-        "io": [
-          {
-            "outputname": "OnTrigger",
-            "targetname": "[PR#]blue2_effect",
-            "inputname": "Enable",
-            "overrideparam": "",
-            "delay": 0,
-            "timestofire": -1
-          }
-        ]
-      }
-    },
-    {
-      "match": {
-        "targetname": "[PR#]Stage4_Ending_Bergan_HP"
-      },
-      "delete": {
-        "io": [
-          {
-            "outputname": "OnHitMin",
-            "targetname": "[PR#]blue2_effect",
-            "inputname": "Disable",
-            "overrideparam": "",
             "delay": 0,
             "timestofire": -1
           }

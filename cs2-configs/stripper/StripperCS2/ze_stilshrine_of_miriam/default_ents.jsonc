@@ -23,7 +23,7 @@
             "outputname": "OnMapSpawn",
             "targetname": "[PR#]cmd",
             "inputname": "Command",
-            "overrideparam": "say *** Increased Judge Bergan health and blue color correction removed by koen ***",
+            "overrideparam": "say *** Increased bergan health by koen ***",
             "delay": 7,
             "timestofire": 1
           }

@@ -1,7 +1,7 @@
 {
   "modify": [
-    // Buff boss health
-    // EXG has nospread and increased weapon damage so boss needs a buff
+    // [EXG] Increase dragon health due to buffed weapon damage
+    // 900 hp/person -> 1800 hp/person (100% increase)
     {
       "match": {
         "classname": "trigger_multiple",

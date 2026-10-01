@@ -231,8 +231,8 @@
         ]
       }
     },
-    // Buff boss health
-    // EXG has nospread and increased weapon damage so boss needs a buff
+    // [EXG] Buff boss health due to buffed weapon damage and nospread
+    // 800 base hp (~14% increase) + 500 hp/person (~43% increase)
     {
       "match": {
         "hammeruniqueid": "2220"

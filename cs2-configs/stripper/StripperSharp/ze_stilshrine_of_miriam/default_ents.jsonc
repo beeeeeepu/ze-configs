@@ -23,7 +23,7 @@
             "output": "OnMapSpawn",
             "target": "[PR#]cmd",
             "input": "Command",
-            "param": "say *** Increased Judge Bergan health by koen ***",
+            "param": "say *** Increased bergan health by koen ***",
             "delay": 7,
             "limit": 1
           }
