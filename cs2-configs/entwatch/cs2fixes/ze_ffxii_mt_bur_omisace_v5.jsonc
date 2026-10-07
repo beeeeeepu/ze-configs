@@ -1,0 +1,659 @@
+[
+  {
+    "name": "Heal Magick",
+    "shortname": "Heal",
+    "hammerid": "611",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "white",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "615"
+      },
+      {
+        "hammerid": "613",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Thunder Magick",
+    "shortname": "Thunder",
+    "hammerid": "609",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "621"
+      },
+      {
+        "hammerid": "617",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Sand Magick",
+    "shortname": "Sand",
+    "hammerid": "586",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "588"
+      },
+      {
+        "hammerid": "585",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 75,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Underworld Rod",
+    "shortname": "Rod",
+    "hammerid": "172",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "167"
+      },
+      {
+        "hammerid": "170",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Silver Mace",
+    "shortname": "Mace",
+    "hammerid": "183",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "blue",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "186"
+      },
+      {
+        "hammerid": "184",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 90,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Chaos Blade",
+    "shortname": "Chaos",
+    "hammerid": "190",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "262"
+      },
+      {
+        "hammerid": "265",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 75,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Gunblade",
+    "shortname": "Gunblade",
+    "hammerid": "346",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "356"
+      },
+      {
+        "hammerid": "355",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 15,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Penetrator Crossbow",
+    "shortname": "Crossbow",
+    "hammerid": "641",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "644"
+      },
+      {
+        "hammerid": "643",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 5,
+        "maxuses": 0,
+        "message": false,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ensanguined Shield",
+    "shortname": "Shield",
+    "hammerid": "608",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "603"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "639",
+        "mode": 3,
+        "cooldown": 75,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Ultimate Blade (Ammo)",
+    "shortname": "Ammo",
+    "hammerid": "648",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "649"
+      },
+      {
+        "type": "counterup",
+        "hammerid": "571",
+        "mode": 3,
+        "cooldown": 60,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Sword of Kings (Ultima)",
+    "shortname": "Ultima",
+    "hammerid": "333",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "yellow",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "331"
+      },
+      {
+        "hammerid": "334",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 18.5,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "HP Potion",
+    "shortname": "HP",
+    "hammerid": "223",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "221"
+      },
+      {
+        "hammerid": "219",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Haste Potion",
+    "shortname": "Haste",
+    "hammerid": "244",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "239"
+      },
+      {
+        "hammerid": "242",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Betelgeuse",
+    "shortname": "Betelgeuse",
+    "hammerid": "340",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "grey",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "341"
+      },
+      {
+        "hammerid": "338",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Cactus Summon",
+    "shortname": "Cactus",
+    "hammerid": "156",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "green",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "151"
+      },
+      {
+        "hammerid": "155",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "King Bomb Summon",
+    "shortname": "Bomb",
+    "hammerid": "162",
+    "message": true,
+    "ui": true,
+    "transfer": true,
+    "color": "darkred",
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "163"
+      },
+      {
+        "hammerid": "159",
+        "event": "OnPass",
+        "mode": 3,
+        "cooldown": 0,
+        "maxuses": 1,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Flame Magick",
+    "shortname": "ZM FIre",
+    "hammerid": "129",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["1365"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "127"
+      },
+      {
+        "hammerid": "130",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Fear Magick",
+    "shortname": "ZM Fear",
+    "hammerid": "286",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "pink",
+    "triggers": ["1417"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "284"
+      },
+      {
+        "hammerid": "287",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Heal Magick",
+    "shortname": "ZM Heal",
+    "hammerid": "514",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "yellow",
+    "triggers": ["1429"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "511"
+      },
+      {
+        "hammerid": "510",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Gravity Magick",
+    "shortname": "ZM Gravity",
+    "hammerid": "547",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "purple",
+    "triggers": ["1437"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "542"
+      },
+      {
+        "hammerid": "280",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 65,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Warp Magick",
+    "shortname": "ZM Warp",
+    "hammerid": "553",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkred",
+    "triggers": ["1455"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "548"
+      },
+      {
+        "hammerid": "279",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Critical Exploiter",
+    "shortname": "ZM Exploit",
+    "hammerid": "540",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "red",
+    "triggers": ["1433"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "535"
+      },
+      {
+        "hammerid": "53",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Mateus Spear",
+    "shortname": "ZM Mateus",
+    "hammerid": "145",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "darkblue",
+    "triggers": ["1369"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "143"
+      },
+      {
+        "hammerid": "141",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Belias Spear",
+    "shortname": "ZM Belias",
+    "hammerid": "250",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "orange",
+    "triggers": ["1405"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "246"
+      },
+      {
+        "hammerid": "215",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 80,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Highway Star",
+    "shortname": "ZM Star",
+    "hammerid": "251",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["1407"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "253"
+      },
+      {
+        "hammerid": "260",
+        "event": "OnTrigger",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Zargabaath Sword",
+    "shortname": "ZM Zargabaath",
+    "hammerid": "563",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["1465"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "558"
+      },
+      {
+        "hammerid": "562",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  },
+  {
+    "name": "Zombie Bergan Sword",
+    "shortname": "ZM Bergan",
+    "hammerid": "577",
+    "message": true,
+    "ui": true,
+    "transfer": false,
+    "color": "grey",
+    "triggers": ["1469"],
+    "handlers": [
+      {
+        "type": "button",
+        "hammerid": "575"
+      },
+      {
+        "hammerid": "572",
+        "event": "OnPass",
+        "mode": 2,
+        "cooldown": 70,
+        "maxuses": 0,
+        "message": true,
+        "ui": true
+      }
+    ]
+  }
+]

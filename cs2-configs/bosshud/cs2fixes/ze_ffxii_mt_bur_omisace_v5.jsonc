@@ -1,0 +1,47 @@
+[
+  {
+    "name": "King Bomb",
+    "counter": "Stage0_BossGetHP",
+    "iterator": "Stage0_Boss_DieHP"
+  },
+  {
+    "name": "Exodus",
+    "counter": "Stage1_BossGetHP",
+    "iterator": "Stage1_Boss_DieHP"
+  },
+  {
+    "name": "Bahamut",
+    "counter": "Stage-1_BossGetHP",
+    "iterator": "Stage-1_Boss_DieHP"
+  },
+  {
+    "name": "Exodus",
+    "counter": "Stage-1_Laser_HP_Counter"
+  },
+  {
+    "name": "Bergan (Phase 1)",
+    "counter": "Stage3_BossGetHP",
+    "iterator": "Stage3_Boss_DieHP"
+  },
+  {
+    "name": "Bergan (Phase 2)",
+    "counter": "Stage4_BossGetHP",
+    "iterator": "Stage4_Boss_DieHP"
+  },
+  {
+    "name": "Bergan",
+    "counter": "Stage4_Laser_HP_Counter"
+  },
+  {
+    "name": "Cactus",
+    "counter": "Event_Cactus_Counter"
+  },
+  {
+    "name": "Bahamut",
+    "counter": "Event_Bahamut_Counter"
+  },
+  {
+    "name": "Zombie Warlock",
+    "breakable": "Event_zombie_model5_func"
+  }
+]

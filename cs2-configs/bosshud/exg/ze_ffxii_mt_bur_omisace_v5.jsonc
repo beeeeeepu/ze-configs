@@ -1,0 +1,61 @@
+{
+  "MathCounterConfigs": [
+    {
+      "DisplayName": "King Bomb",
+      "HpCounter": "Stage0_BossGetHP",
+      "HpBarCounter": "Stage0_Boss_DieHP",
+      "HpBarCounterAdd0": true,
+      "HpBarAdd": false
+    },
+    {
+      "DisplayName": "Exodus",
+      "HpCounter": "Stage1_BossGetHP",
+      "HpBarCounter": "Stage1_Boss_DieHP",
+      "HpBarCounterAdd0": true,
+      "HpBarAdd": false
+    },
+    {
+      "DisplayName": "巴哈姆特",
+      "HpCounter": "Stage-1_BossGetHP",
+      "HpBarCounter": "Stage-1_Boss_DieHP",
+      "HpBarCounterAdd0": true,
+      "HpBarAdd": false
+    },
+    {
+      "DisplayName": "Exodus",
+      "HpCounter": "Stage-1_Laser_HP_Counter"
+    },
+    {
+      "DisplayName": "贝甘 (1/2)",
+      "HpCounter": "Stage3_BossGetHP",
+      "HpBarCounter": "Stage3_Boss_DieHP",
+      "HpBarCounterAdd0": true,
+      "HpBarAdd": false
+    },
+    {
+      "DisplayName": "贝甘 (2/2)",
+      "HpCounter": "Stage4_BossGetHP",
+      "HpBarCounter": "Stage4_Boss_DieHP",
+      "HpBarCounterAdd0": true,
+      "HpBarAdd": false
+    },
+    {
+      "DisplayName": "贝甘",
+      "HpCounter": "Stage4_Laser_HP_Counter"
+    },
+    {
+      "DisplayName": "仙人掌",
+      "HpCounter": "Event_Cactus_Counter"
+    },
+    {
+      "DisplayName": "巴哈姆特",
+      "HpCounter": "Event_Bahamut_Counter"
+    }
+  ],
+  "BreakableConfigs": [
+    {
+      "DisplayName": "Zombie Warlock",
+      "EntityName": "Event_zombie_model5_func"
+    }
+  ]
+}

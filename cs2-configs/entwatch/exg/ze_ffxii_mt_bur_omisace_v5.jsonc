@@ -1,0 +1,299 @@
+[
+  {
+    "Name": "奶", // Heal Magick
+    "ShortName": "奶",
+    "HammerId": "611",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "615",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "电", // Thunder Magick
+    "ShortName": "电",
+    "HammerId": "609",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "621",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 65,
+    "MaxUses": 0
+  },
+  {
+    "Name": "流沙", // Sand Magick
+    "ShortName": "流沙",
+    "HammerId": "586",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "588",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 75,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Underworld Rod",
+    "ShortName": "Rod",
+    "HammerId": "172",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "167",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 65,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Silver Mace",
+    "ShortName": "Mace",
+    "HammerId": "183",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "186",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 90,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Chaos Blade",
+    "ShortName": "Blade",
+    "HammerId": "190",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "262",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 75,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Gunblade",
+    "ShortName": "Gunblade",
+    "HammerId": "346",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "356",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 15,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Penetrator Crossbow",
+    "ShortName": "Crossbow",
+    "HammerId": "641",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "644",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 5,
+    "MaxUses": 0
+  },
+  {
+    "Name": "护盾", // Ensanguined Shield
+    "ShortName": "护盾",
+    "HammerId": "608",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "603",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 75,
+    "MaxUses": 2
+  },
+  {
+    "Name": "弹药", // Ultimate Blade
+    "ShortName": "弹药",
+    "HammerId": "648",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "649",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 60,
+    "MaxUses": 2
+  },
+  {
+    "Name": "终极", // Sword of Kings
+    "ShortName": "终极",
+    "HammerId": "333",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "331",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "药水", // HP Potion
+    "ShortName": "药水",
+    "HammerId": "223",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "221",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "加速", // Haste Potion
+    "ShortName": "加速",
+    "HammerId": "244",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "239",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "Betelgeuse",
+    "ShortName": "Betelgeuse",
+    "HammerId": "340",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "341",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "仙人掌", // Cactus Summon
+    "ShortName": "仙人掌",
+    "HammerId": "156",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "151",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "King Bomb Summon",
+    "ShortName": "Bomb",
+    "HammerId": "162",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "163",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 0,
+    "MaxUses": 1
+  },
+  {
+    "Name": "僵尸火", // Zombie Fire Magick
+    "ShortName": "[ZM]火",
+    "HammerId": "129",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "127",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "僵尸恐惧", // Zombie Fear Magick
+    "ShortName": "[ZM]恐惧",
+    "HammerId": "286",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "284",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "僵尸奶", // Zombie Heal Magick
+    "ShortName": "[ZM]奶",
+    "HammerId": "514",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "511",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "僵尸黑洞", // Zombie Gravity Magick
+    "ShortName": "[ZM]黑",
+    "HammerId": "547",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "542",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 65,
+    "MaxUses": 0
+  },
+  {
+    "Name": "僵尸秒杀", // Zombie Warp Magick
+    "ShortName": "[ZM]秒",
+    "HammerId": "553",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "548",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Zombie Critical Exploiter",
+    "ShortName": "ZM Exploit",
+    "HammerId": "540",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "535",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Zombie Mateus Spear",
+    "ShortName": "ZM Mateus",
+    "HammerId": "145",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "143",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 80,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Zombie Belias Spear",
+    "ShortName": "ZM Belias",
+    "HammerId": "250",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "246",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 80,
+    "MaxUses": 0
+  },
+  {
+    "Name": "Zombie Highway Star",
+    "ShortName": "ZM Star",
+    "HammerId": "251",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "253",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "扎尔伽巴斯",
+    "ShortName": "扎尔伽巴斯",
+    "HammerId": "563",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "558",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  },
+  {
+    "Name": "贝甘",
+    "ShortName": "贝甘",
+    "HammerId": "577",
+    "ButtonClass": "func_button",
+    "ButtonHammerId": "575",
+    "ButtonInput": "OnPressed",
+    "ShowHud": true,
+    "Cooldown": 70,
+    "MaxUses": 0
+  }
+]
