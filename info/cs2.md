@@ -13,7 +13,11 @@
     - [EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch-1)
     - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-1)
 3. [FyS](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#fys)
+    - [EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch-2)
     - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-2)
+4. [ZombieDen](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#zombieden)
+    - [EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch-3)
+    - [BossHUD](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#bosshud-3)
 4. [DarkerZ](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#darkerz)
     - [EntWatchSharp/MS-EntWatch](https://github.com/notkoen/ze-configs/blob/main/info/cs2.md#entwatch-2)
 
@@ -45,36 +49,32 @@ List of available colors:
 ```jsonc
 [
   {
-    "name": "Item Name",            // Name of item that appears in chat
-    "shortname": "Short Name",      // Name of item that appears on the HUD
-    "hammerid": "",                 // Hammerid of the weapon entity
-    "message": true,                // Whether to show pickup/drop messages in chat
-    "ui": true,                     // Whether to show this item on the HUD
-    "transfer": true,               // Whether to allow this item to be transferred (this auto detects false for knife items)
-    "color": "",                    // Color of the item for chat messages (see list of colors)
-    "triggers": [""],               // Array of hammerids of any triggers that this item is associated with
-    "templated": true,              // Whether the entity of this handler is templated with the item weapon, (auto detected if not specified)
+    "name": "Item Name",            // (string)     -> Name of item that appears in chat
+    "shortname": "Short Name",      // (string)     -> Name of item that appears on the HUD
+    "hammerid": "",                 // (string)     -> Hammerid of the weapon entity
+    "message": true,                // (bool)       -> Whether to show pickup/drop messages in chat
+    "ui": true,                     // (bool)       -> Whether to show this item on the HUD
+    "transfer": true,               // (bool)       -> Whether this item can be transferred (knife items default to false)
+    "color": "",                    // (string)     -> Item color for chat messages, hud, and glow (see list of colors)
+    "triggers": [""],               // (string[]?)  -> Array of trigger hammerids associated with the item
+    "templated": true,              // (bool)       -> Whether the entity of this handler is templated with the item weapon, (auto detected if not specified)
     "handlers": [
       {
-        "name": "Handler",          // extra name to show in chat when used e.g. XXX has used Item Name (Handler)
-        "type": "button",           // "button",
-                                    // "counterdown" - counter stops OnHitMin
-                                    // "counterup" - counter stops OnHitMax
-                                    // (anything else is ignored)
-        "hammerid": "",             // hammerid of the entity
-        "event": "OnPressed",       // Name of the output, counterup/down types always force "OutValue"
-        "mode": 2,                  // Mode of the handler
-                                    //  0/1 = None
-                                    //  2 = Cooldown,           3 = MaxUses (cooldown between each)
-                                    //  4 = CooldownAfterUses,  5 = CounterValue
-        "offset": [0,0],            // ADDS the specified offset to counter values,
-                                    // First number is counter value, Second is counter max
-        "cooldown": 0,              // Cooldown duration if mode = 2,3,4
-        "maxuses": 0,               // Maxuses if mode = 3,4
-        "message": true,            // Whether to show when this is used in chat
-        "ui": true,                 // Whether to track this handler on the HUD
-        "templated": true           // Whether the entity of this handler is templated with the item weapon,
-      }                             //  (this will attempt to auto detect if not specified)
+        "name": "Handler",          // (string?)    -> Extra name to show in chat when used e.g. XXX has used Item Name (Handler)
+        "type": "button",           // (string)     -> Ability type: 'button', 'counterdown', 'counterdown', or leave empty for output tracking
+        "hammerid": "",             // (string)     -> Hammerid of the ability
+        "event": "OnPressed",       // (string)     -> Output name (for output type)
+        "mode": 2,                  // (int)        -> Mode of the handler
+                                    //                  0/1 = None
+                                    //                  2 = Cooldown,           3 = MaxUses (cooldown between each)
+                                    //                  4 = CooldownAfterUses,  5 = CounterValue
+        "offset": [0,0],            // (int[]?)     -> Add specified offset to counter values [counter value, counter max]
+        "cooldown": 0,              // (int)        -> Cooldown duration (Mode 2/3/4 only)
+        "maxuses": 0,               // (int)        -> Maxuses (Mode 3/4 only)
+        "message": true,            // (bool)       -> Whether to show when this is used in chat
+        "ui": true,                 // (bool)       -> Whether to track this handler on the HUD
+        "templated": true           // (bool?)      -> Whether handler is templated with the item (auto detected if not specified)
+      }
     ]
   }
 ]
@@ -175,50 +175,50 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 ```jsonc
 [
   {
-    "name": "",                 // OPTIONAL - (string) Name of boss that appears in hud
-    "breakable": "",            // Targetname/Hammerid of breakable
-    "counter": "",              // Targetname/Hammerid of counter
-    "iterator": "",             // OPTIONAL - Targetname/Hammerid of hp iterator (segments)
-    "backup": "",               // OPTIONAL - Targetname/Hammerid of hp backup
+    "name": "",                 // (string?)  -> Name of boss that appears in hud
+    "breakable": "",            // (string)   -> Targetname/hammerid of breakable
+    "counter": "",              // (string)   -> Targetname/hammerid of main counter
+    "iterator": "",             // (string?)  -> Targetname/hammerid of iterator counter
+    "backup": "",               // (string?)  -> Targetname/hammerid of backup counter
 
-    "trigger":                  // OPTIONAL - Specifies the event that triggers the boss
+    "trigger":                  // Boss trigger event (optional)
     {
-      "ent": "",                // (string) Targetname/Hammerid of entity
-      "output": "",             // (string) Output of entity
-      "delay": 0.0              // OPTIONAL - (float) Delay after output that starts boss
+      "ent": "",                // (string)   -> Targetname/hammerid of entity
+      "output": "",             // (string)   -> Entity output
+      "delay": 0.0              // (float?)   -> Delay after output that triggers the boss
     },
 
-    "showtrigger":              // OPTIONAL - Specifies event that starts displaying boss health
+    "showtrigger":              // Display boss health event (optional)
     {
-      "ent": "",                // (string) Targetname/Hammerid of entity
-      "output": "",             // (string) Output of entity
-      "delay": 0.0              // OPTIONAL - (float) Delay after event that shows boss health
+      "ent": "",                // (string)   -> Targetname/hammerid of entity
+      "output": "",             // (string)   -> Entity output
+      "delay": 0.0              // (float?)   -> Delay after event that shows boss health
     },
 
-    "killtrigger":              // OPTIONAL - Specifies event that force kills the boss
+    "killtrigger":              // Boss death event (optional)
     {
-      "ent": "",                // (string) Targetname/Hammerid of entity
-      "output": "",             // (string) Output of entity
-      "delay": 0.0              // OPTIONAL - (float) Delay after event that force kills boss
+      "ent": "",                // (string)   -> Targetname/hammerid of entity
+      "output": "",             // (string)   -> Entity output
+      "delay": 0.0              // (float?)   -> Delay after event that kills the boss
     },
 
-    "hurttrigger":              // OPTIONAL - Specifies event that is considered as damaging the boss
+    "hurttrigger":              // Boss damage event (optional)
     {
-      "ent": "",                // (string) Targetname/hammerid of entity
-      "output": ""              // (string) Output of entity
+      "ent": "",                // (string)   -> Targetname/hammerid of entity
+      "output": ""              // (string)   -> Entity output
     },
 
-    "reversecounter": false,    // OPTIONAL - (bool) Whether counter should be reversed
-    "reverseiterator": false,   // OPTIONAL - (bool) Whether iterator should be reversed
-    "hitmarkeronly": false,     // OPTIONAL - (bool) Whether only hitmarkers should be shown when hitting boss
-    "minorhud": false,          // OPTIONAL - (bool) Whether boss should should be displayed as no-bar hud variant
-    "multitrigger": false,      // OPTIONAL - (bool) Whether boss can be triggered multiple times (multiple instances)
-    "templated": false,         // OPTIONAL - (bool) Whether boss is templated and has name fixup
-    "showbeaten": true,         // OPTIONAL - (bool) Whether top boss damage should be displayed after boss death
-    "timeout": 0.0,             // OPTIONAL - (float) Specify time before boss health is hidden after taking no damage
-    "offset": 0.0,              // OPTIONAL - (float) Specify amount of health to ADD to displayed health (negative to subtract)
-    "offsetiterator": 0.0,      // OPTIONAL - (float) Specify amount of iterator segments to ADD to displayed health (negative to subtract)
-    "maxhp": 0.0                // OPTIONAL - (float) If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
+    "reversecounter": false,    // (bool?)    -> Whether main counter has OnHitMax outputs
+    "reverseiterator": false,   // (bool?)    -> Whether iterator counter has OnHitMax outputs
+    "hitmarkeronly": false,     // (bool?)    -> Whether only hitmarkers should be shown when hitting boss
+    "minorhud": false,          // (bool?)    -> Whether boss should should be displayed as no-bar hud variant
+    "multitrigger": false,      // (bool?)    -> Whether boss can be triggered multiple times (multiple instances)
+    "templated": false,         // (bool?)    -> Whether boss is templated and has name fixup
+    "showbeaten": true,         // (bool?)    -> Whether top boss damage should be displayed after boss death
+    "timeout": 0.0,             // (float?)   -> Specify time before boss health is hidden after taking no damage
+    "offset": 0.0,              // (float?)   -> Specify amount of health to ADD to displayed health (negative to subtract)
+    "offsetiterator": 0.0,      // (float?)   -> Specify amount of iterator segments to ADD to displayed health (negative to subtract)
+    "maxhp": 0.0                // (float?)   -> If the boss has more than this HP, it will not start showing on the HUD (0.0 = no limit)
   }
 ]
 ```
@@ -311,7 +311,7 @@ Find entity classnames that are either `math_counter`, `func_breakable`, or `fun
 
 ### AdminRoom
 
-The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room coordindates are stored in one single [file](https://github.com/notkoen/ze-configs/blob/main/cs2-configs/cs2fixes/adminroom.jsonc). Coordinates are stored with map names as the key, and coordinates as an array.
+The AdminRoom feature is exclusive to GFL's version of CS2Fixes. All admin room coordindates are stored in one single [file](https://github.com/notkoen/ze-configs/blob/main/cs2-configs/adminroom.jsonc). Coordinates are stored with map names as the key, and coordinates as an array.
 
 ## EXG
 
@@ -418,35 +418,106 @@ FyS has a public config [repository](https://github.com/fyscs/cs2) although not 
 > [!WARNING]
 > FyS config formatting requires indentation of two spaces.
 
+### EntWatch
+
+```jsonc
+{
+  "name": "",               // (string)     -> Name of item (chat)
+  "shortname": "",          // (string)     -> Name of item (hud)
+  "weaponId": "",           // (string)     -> Hammerid of item
+  "team": 0,                // (int)        -> Item team: 3 = human, 2 = zombie
+  "slot": 0,                // (int)        -> Item slot: 0 = primary, 1 = secondary, 2 = knife, 4 = C4
+  "ui": true,               // (bool)       -> Whether to show this item on the HUD
+  "disabled": false,        // (bool)       -> Whether to allow this item to be picked up
+  "prerequesite": true,     // (bool)       -> Whether if players must fulfill prerequesite to pick up item (map level, ebans) [Default: true]
+  "count": 0,               // (int)        -> How many instances of this item on the map
+  "triggers": [""],         // (string[]?)  -> Array of trigger hammerids associated with the item
+  "hitboxes": [""],         // (string[]?)  -> Array of hitbox hammerids associated with the item
+  "abilities": [
+    {
+      "tag": "",            // (string?)    -> Ability name to show in chat and hud
+      "type": "",           // (string)     -> Ability type: 'button', 'game_ui', 'trigger', 'relay', 'breakable', 'key'
+      "event": "",          // (string)     -> Output event: 'OnPressed', 'OnPlayerUse', 'PressedAttack2', 'OnTrigger', 'OnBreak', 'OnStartTouch', 'OnEndTouch'
+      "hammerId": "",       // (string)     -> Hammerid of ability
+      "measure": "",        // (string?)    -> Hammerid of measure movement entity
+      "container": "",      // (string?)    -> Hammerid of counter
+      "maxUses": 0,         // (int)        -> Max ability uses (Mode 3/4/5 only)
+      "message": true,      // (bool)       -> Whether to show ability use in chat
+      "cooldown": 0,        // (int)        -> Cooldown duration of ability
+      "mode": 0             // (int)        -> Mode of the ability:
+                            //                 0 = None                 1 = Spam
+                            //                 2 = Cooldown             3 = MaxUses
+                            //                 4 = MaxUsesWithCooldown  5 = CooldownAfterUses
+                            //                 6 = OnHitMinCounter      6 = OnHitMaxCounter
+                            //                 7 = CounterValue
+    }
+  ]
+}
+```
+
+<details>
+    <summary>Clean Template</summary>
+
+```jsonc
+{
+  "name": "",
+  "shortname": "",
+  "weaponId": "",
+  "team": 0,
+  "slot": 0,
+  "ui": true,
+  "disabled": false,
+  "prerequesite": true,
+  "count": 0,
+  "triggers": [""],
+  "hitboxes": [""],
+  "abilities": [
+    {
+      "tag": "",
+      "type": "",
+      "event": "",
+      "hammerId": "",
+      "measure": "",
+      "container": "",
+      "maxUses": 0,
+      "message": true,
+      "cooldown": 0,
+      "mode": 0
+    }
+  ]
+}
+```
+</details>
+
 ### BossHUD
 
 ```jsonc
 {
-  "Proxy": true,            // (bool) Whether boss health is scripted
+  "Proxy": true,            // (bool)       -> Whether boss health is scripted
   "Counters": [
     {
-      "iterator": "",       // (string) Targetname of boss COUNTER
-      "backup": "",         // (string) Targetname of boss BACKUP counter
-      "counter": "",        // (string) Targetname of boss ITERATOR
-      "stages": 0.0,        // (int) Number of times boss is re-triggered (similar to multitrigger)
-      "mass": 0.0,          // (int) Health per player for counter and iterator system
-      "hitbox": "",         // (string) Targetname of boss hitbox
-      "display": "",        // (string) Name of boss that appears on hud
-      "increase": false,    // (bool) If boss COUNTER has OnHitMax outputs
-      "reverse": false,     // (bool) If boss ITERATOR has OnHitMax outputs
+      "iterator": "",       // (string)     -> Targetname of main counter
+      "backup": "",         // (string)     -> Targetname of backup counter
+      "counter": "",        // (string)     -> Targetname of iterator counter
+      "stages": 0.0,        // (int)        -> Number of times boss is re-triggered
+      "mass": 0.0,          // (int)        -> Health per player for counter/iterator system
+      "hitbox": "",         // (string?)    -> Targetname of boss hitbox
+      "display": "",        // (string)     -> Name of boss that appears on hud
+      "increase": false,    // (bool?)      -> Whether main counter has OnHitMax outputs
+      "reverse": false,     // (bool?)      -> Whether iterator counter has OnHitMax outputs
     }
   ],
   "Breakables": [
     {
-      "target": "",         // (string) Targetname of boss breakable
-      "count": "",          // (string) Targetname of boss iterator counter
-      "display": ""         // (string) Name of boss that appear on hud
+      "target": "",         // (string)     -> Targetname of boss breakable
+      "count": "",          // (string?)    -> Targetname of boss iterator counter
+      "display": ""         // (string)     -> Name of boss that appear on hud
     }
   ],
   "Monsters": [
     {
-      "identity": "",       // (string) Hammerid of counter or breakable
-      "display": ""         // (string) Name of boss that appears on hud
+      "identity": "",       // (string)     -> Hammerid of counter/breakable
+      "display": ""         // (string)     -> Name of boss that appears on hud
     }
   ]
 }
@@ -511,6 +582,76 @@ FyS has a public config [repository](https://github.com/fyscs/cs2) although not 
 ```
 </details>
 
+## ZombieDen
+
+### EntWatch
+
+```text
+"entities"
+{
+    "0"
+    {
+        "hammerid"          ""  // Hammerid of item
+        "shortname_cn"      ""  // Name of item
+        "cooldown"          ""  // Cooldown of item
+        "maxuses"           ""  // Max uses of item
+        "cooldown_knife1"   ""  // Cooldown of mouse 1 ability
+        "cooldown_knife2"   ""  // Cooldown of mouse 2 ability
+    }
+}
+```
+
+<details>
+    <summary>Clean Template</summary>
+
+```text
+"entities"
+{
+    "0"
+    {
+        "hammerid"          ""
+        "shortname_cn"      ""
+        "cooldown"          ""
+        "maxuses"           ""
+        "cooldown_knife1"   ""
+        "cooldown_knife2"   ""
+    }
+}
+```
+</details>
+
+### BossHUD
+
+```text
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        ""  // Targetname of breakable/counter
+        "HPbar_default"     ""  // Starting counter value of iterator
+        "HPbar_counter"     ""  // Iterator mode: 0 = OnHitMin, 1 = OnHitMax
+        "CustomText_CN"     ""  // Name of boss to display on HUD
+    }
+}
+```
+
+<details>
+    <summary>Clean Template</summary>
+
+```text
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        ""
+        "HPbar_default"     ""
+        "HPbar_counter"     ""
+        "CustomText_CN"     ""
+    }
+}
+```
+</details>
+
 ## DarkerZ
 
 ### EntWatch
@@ -553,48 +694,41 @@ List of available colors:
 ```jsonc
 [
   {
-    "Name": "",                     // String, Name of item that appears in chat
-    "ShortName": "",                // String, Name of item that appears on the HUD
-    "Color": "",                    // String, Color of the item for chat messages (see list of colors)
-    "HammerID": "",                 // String, HammerID of the weapon entity
-    "GlowColor": [0,0,0,0],         // Array[4], Color of the item for weapon glow
-    "BlockPickup": false,           // Bool, Whether to allow this item to be picked up
-    "AllowTransfer": false,         // Bool, Whether to allow this item to be transferred
-    "ForceDrop": false,             // Bool, Whether to drop this item on player death/disconnect
-    "Chat": false,                  // Bool, Whether to show pickup/drop messages in chat
-    "Hud": false,                   // Bool, Whether to show this item on the HUD
-    "TriggerID": "",                // String, HammerID of trigger associated with the item such as strip trigger
-    "UsePriority": false,           // Bool, enabled by default. Whether to enable auto button press on +use detection
-    "SpawnerID": "",                // String, HammerID of item template
-    "AbilityList": [                // Array of abilities
+    "Name": "",                     // (string)     -> Name of item that appears in chat
+    "ShortName": "",                // (string)     -> Name of item that appears on the HUD
+    "Color": "",                    // (string)     -> Item color for chat messages (see list of colors)
+    "HammerID": "",                 // (string)     -> HammerID of the weapon entity
+    "GlowColor": [0,0,0,0],         // (int[4])     -> Item glow color
+    "BlockPickup": false,           // (bool)       -> Whether item pickup is blocked
+    "AllowTransfer": false,         // (bool)       -> Whether item can be transferred
+    "ForceDrop": false,             // (bool)       -> Whether item is dropped on player death/disconnect
+    "Chat": false,                  // (bool)       -> Whether item pickup/drop messages show in chat
+    "Hud": false,                   // (bool)       -> Whether item is displayed on the HUD
+    "TriggerID": "",                // (string?)    -> Trigger hammerid associated with item
+    "UsePriority": false,           // (bool?)      -> Whether auto button press on +use detection is enabled
+    "SpawnerID": "",                // (string?)    -> Hammerid of item template
+    "AbilityList": [
       {
-        "Name": "",                 // String, Custom ability name, can be omitted
-        "ButtonID": "",             // String, HammerID of button or game_ui entity
-        "ButtonClass": "",          // String, Button class
-                                    // "func_button" - button activation
-                                    // "game_ui::PressedAttack" - game_ui PressedAttack activation
-                                    // "game_ui::PressedAttack2" - game_ui PressedAttack2 activation
-        "Filter": "",               // String, Item activation filter
-                                    // Targetname - filter_activator_name
-                                    // $attribute - filter_activator_attribute_int
-                                    // context:value - filter_activator_context
-        "Chat_Uses": false,         // Bool, Whether to show item use messages if chat is disabled
-        "Mode": 0,                  // Integer, Mode for item.
-                                    //  0 = No button            1 = Spammable items,
-                                    //  2 = Cooldown             3 = MaxUses (no cooldown)
-                                    //  4 = MaxUses (cooldown)   5 = CooldownAfterUses
-                                    //  6 = OnHitMin counter     7 = OnHitMax counter
-                                    //  8 = ButtonHealth
-        "MaxUses": 0,               // Integer, Maxuses if mode = 3,4,5
-        "CoolDown": 0,              // Integer, Cooldown duration if mode = 2,4,5
-        "Ignore": false,            // Bool, Whether to show item cooldown on HUD
-        "LockItem": false,          // Bool, Whether to block item activation
-        "MathID": "",               // String, Counter HammerID if mode = 6,7
-        "MathNameFix": false,       // Bool, Whether to account for name fixup for counter
-        "MathFindSpawned": false,   // Bool, Whether to look for counter after weapon spawn
-                                    //  (For counters not in item template and item spawns later)
-        "MathDontShowMax": false,   // Bool, Whether to show counter max value
-        "MathZero": false           // Bool, Whether to allow button press when counter value is zero
+        "Name": "",                 // (string?)    -> Custom ability name
+        "ButtonID": "",             // (string)     -> Hammerid of button/game_ui entity
+        "ButtonClass": "",          // (string)     -> 'func_button', 'game_ui::PressedAttack', 'game_ui::PressedAttack2'
+        "Filter": "",               // (string?)    -> Targetname, $attribute, context:value
+        "Chat_Uses": false,         // (bool)       -> Whether item use messages show in chat
+        "Mode": 0,                  // (int)        -> Item mode
+                                    //                  0 = No button            1 = Spammable item
+                                    //                  2 = Cooldown             3 = MaxUses
+                                    //                  4 = MaxUsesWithCooldown  5 = CooldownAfterUses
+                                    //                  6 = OnHitMinCounter      7 = OnHitMaxCounter
+                                    //                  8 = ButtonHealth
+        "MaxUses": 0,               // (int)        -> Max uses (Mode 3/4/5 only)
+        "CoolDown": 0,              // (int)        -> Cooldown duration (Mode 2/4/5 only)
+        "Ignore": false,            // (bool)       -> Whether to show item cooldown on HUD
+        "LockItem": false,          // (bool)       -> Whether to block item activation
+        "MathID": "",               // (string?)    -> Hammerid of counter (Mode 6/7 only)
+        "MathNameFix": false,       // (bool?)      -> Whether to account for name fixup on counter entity
+        "MathFindSpawned": false,   // (bool?)      -> Whether to look for counter after weapon spawn (For counters not in item template)
+        "MathDontShowMax": false,   // (bool?)      -> Whether to show counter max value
+        "MathZero": false           // (bool?)      -> Whether to allow button press when counter value is zero
       }
     ]
   }
