@@ -1,0 +1,154 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "560",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "558",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 31,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Push Gun",
+    "ShortName": "Push",
+    "Color": "{green}",
+    "HammerID": "590",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "591",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 41,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Grenade Spawner",
+    "ShortName": "Grenades",
+    "Color": "{red}",
+    "HammerID": "570",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "573",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 8,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Laser Gun",
+    "ShortName": "Laser",
+    "Color": "{blue}",
+    "HammerID": "857",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "859",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speed",
+    "ShortName": "Speed",
+    "Color": "{green}",
+    "HammerID": "459",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "460",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Monkey Skin",
+    "ShortName": "Monkey",
+    "Color": "{orange}",
+    "HammerID": "720",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "595",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3912",
+    "AbilityList": [
+      {
+        "ButtonID": "596",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 41,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Teleporter",
+    "ShortName": "ZM Teleport",
+    "Color": "{red}",
+    "HammerID": "467",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3914",
+    "AbilityList": [
+      {
+        "ButtonID": "468",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

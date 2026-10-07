@@ -1,0 +1,63 @@
+[
+  {
+    "Name": "Firewall 1",
+    "ShortName": "Firewall 1",
+    "Color": "{orange}",
+    "HammerID": "10988",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "10989",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Firewall 2",
+    "ShortName": "Firewall 2",
+    "Color": "{orange}",
+    "HammerID": "10967",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "10968",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Teleport",
+    "ShortName": "ZM Teleport",
+    "Color": "{darkred}",
+    "HammerID": "11008",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11006",
+    "AbilityList": [
+      {
+        "ButtonID": "11010",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  }
+]

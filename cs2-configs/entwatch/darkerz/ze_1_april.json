@@ -1,0 +1,222 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{grey}",
+    "HammerID": "165",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "167",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{green}",
+    "HammerID": "130",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "131",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Face",
+    "ShortName": "Face",
+    "Color": "{green}",
+    "HammerID": "766",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "764",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Slow 1",
+    "ShortName": "Slow 1",
+    "Color": "{blue}",
+    "HammerID": "713",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "715",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Slow 2",
+    "ShortName": "Slow 2",
+    "Color": "{blue}",
+    "HammerID": "551",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "552",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speed 1",
+    "ShortName": "Speed 1",
+    "Color": "{yellow}",
+    "HammerID": "1017",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1015",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speed 2",
+    "ShortName": "Speed 2",
+    "Color": "{yellow}",
+    "HammerID": "1023",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1021",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speed 3",
+    "ShortName": "Speed 3",
+    "Color": "{yellow}",
+    "HammerID": "1028",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1026",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heli 1",
+    "ShortName": "Heli 1",
+    "Color": "{green}",
+    "HammerID": "991",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "988",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heli 2",
+    "ShortName": "Heli 2",
+    "Color": "{green}",
+    "HammerID": "1004",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1005",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heli 3",
+    "ShortName": "Heli 3",
+    "Color": "{green}",
+    "HammerID": "1009",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1010",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  }
+]

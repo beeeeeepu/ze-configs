@@ -1,0 +1,186 @@
+[
+  {
+    "Name": "Abyssal Orb",
+    "ShortName": "Abyss",
+    "Color": "{purple}",
+    "HammerID": "8205",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8207",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1302",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Lightning Orb",
+    "ShortName": "Lightning",
+    "Color": "{yellow}",
+    "HammerID": "8197",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8198",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1007",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gust Orb",
+    "ShortName": "Gust",
+    "Color": "{silver}",
+    "HammerID": "8188",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8186",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1348",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Glacial Orb",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "8193",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8195",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "995",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Divine Orb",
+    "ShortName": "Divine",
+    "Color": "{white}",
+    "HammerID": "8201",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8203",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1019",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Burning Orb",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "8189",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8190",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "982",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Celestial Embrace",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "1030",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

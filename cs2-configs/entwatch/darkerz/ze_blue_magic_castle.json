@@ -1,0 +1,260 @@
+[
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{orange}",
+    "HammerID": "691",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "694",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "587",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Water",
+    "ShortName": "Water",
+    "Color": "{darkblue}",
+    "HammerID": "681",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "683",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "588",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Electro",
+    "ShortName": "Electro",
+    "Color": "{blue}",
+    "HammerID": "677",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "673",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "590",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{orange}",
+    "HammerID": "666",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "662",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "550",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "553",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "552",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{pink}",
+    "HammerID": "527",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "530",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "529",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Magic Knight",
+    "ShortName": "Knight",
+    "Color": "{orange}",
+    "HammerID": "38",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "36",
+    "AbilityList": [
+      {
+        "ButtonID": "35",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Key",
+    "ShortName": "Key",
+    "Color": "{yellow}",
+    "HammerID": "598",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Bomb",
+    "ShortName": "ZM Bomb",
+    "Color": "{red}",
+    "HammerID": "903",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "911",
+    "AbilityList": [
+      {
+        "ButtonID": "898",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Demon Dog",
+    "ShortName": "ZM Dog",
+    "Color": "{grey}",
+    "HammerID": "784",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "782",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{orange}",
+    "HammerID": "504",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "510",
+    "AbilityList": [
+      {
+        "ButtonID": "506",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "508",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  }
+]

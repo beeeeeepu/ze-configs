@@ -1,0 +1,194 @@
+[
+  {
+    "Name": "Earth Staff",
+    "ShortName": "Earth",
+    "Color": "{orange}",
+    "HammerID": "11116",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11119",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Quicksand Staff",
+    "ShortName": "Quicksand",
+    "Color": "{yellow}",
+    "HammerID": "11145",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11146",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Staff",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "11184",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11185",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Tornado Staff",
+    "ShortName": "Tornado",
+    "Color": "{green}",
+    "HammerID": "11162",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11172",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal Staff",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "11196",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11198",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sandstorm Staff",
+    "ShortName": "Sandstorm",
+    "Color": "{yellow}",
+    "HammerID": "11127",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11129",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire",
+    "ShortName": "ZM Fire",
+    "Color": "{red}",
+    "HammerID": "11828",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11833",
+    "AbilityList": [
+      {
+        "ButtonID": "11830",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Dark",
+    "ShortName": "ZM Dark",
+    "Color": "{purple}",
+    "HammerID": "11854",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11859",
+    "AbilityList": [
+      {
+        "ButtonID": "11857",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Antlion",
+    "ShortName": "ZM Antlion",
+    "Color": "{red}",
+    "HammerID": "11895",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11896",
+    "AbilityList": [
+      {
+        "ButtonID": "11886",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "11888",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

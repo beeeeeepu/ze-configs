@@ -1,0 +1,227 @@
+[
+  {
+    "Name": "Lex Divina",
+    "ShortName": "Lex Divina",
+    "Color": "{white}",
+    "HammerID": "111",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "103",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Impositio Manus",
+    "ShortName": "Impositio Manus",
+    "Color": "{white}",
+    "HammerID": "130",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "127",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Magnus Exorcismus",
+    "ShortName": "Magnus Exorcismus",
+    "Color": "{white}",
+    "HammerID": "353",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "344",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 300,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Holy Light",
+    "ShortName": "Holy Light",
+    "Color": "{white}",
+    "HammerID": "60",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "56",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sanctuary",
+    "ShortName": "Sanctuary",
+    "Color": "{white}",
+    "HammerID": "781",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "785",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Holy Book",
+    "ShortName": "Holy Book",
+    "Color": "{grey}",
+    "HammerID": "6651",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Naraka Book",
+    "ShortName": "Naraka Book",
+    "Color": "{grey}",
+    "HammerID": "6645",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Death Breath",
+    "ShortName": "ZM Death",
+    "Color": "{green}",
+    "HammerID": "121",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "119",
+    "AbilityList": [
+      {
+        "ButtonID": "115",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire Pillars",
+    "ShortName": "ZM Pillar",
+    "Color": "{orange}",
+    "HammerID": "272",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "269",
+    "AbilityList": [
+      {
+        "ButtonID": "266",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Slave Spawner",
+    "ShortName": "ZM Slave",
+    "Color": "{grey}",
+    "HammerID": "281",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "293",
+    "AbilityList": [
+      {
+        "ButtonID": "288",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Firewall",
+    "ShortName": "ZM Firewall",
+    "Color": "{orange}",
+    "HammerID": "305",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "302",
+    "AbilityList": [
+      {
+        "ButtonID": "297",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Hell Judgement",
+    "ShortName": "ZM Judgement",
+    "Color": "{red}",
+    "HammerID": "93",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "91",
+    "AbilityList": [
+      {
+        "ButtonID": "94",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 210,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "Name": "Ammo Box",
+    "ShortName": "Ammo",
+    "Color": "{olive}",
+    "HammerID": "478",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "472",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bio Bomb",
+    "ShortName": "Bio",
+    "Color": "{green}",
+    "HammerID": "407",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "415",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
+    "HammerID": "490",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "486",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Medic Kit",
+    "ShortName": "Heal",
+    "Color": "{blue}",
+    "HammerID": "425",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "422",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Death Coffin",
+    "ShortName": "Coffin",
+    "Color": "{darkred}",
+    "HammerID": "10340",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "10336",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Bazooka",
+    "ShortName": "ZM Bazooka",
+    "Color": "{darkred}",
+    "HammerID": "46",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9174",
+    "AbilityList": [
+      {
+        "ButtonID": "42",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Sarin Gas",
+    "ShortName": "ZM Gas",
+    "Color": "{green}",
+    "HammerID": "592",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "567",
+    "AbilityList": [
+      {
+        "ButtonID": "589",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Mini Nuke",
+    "ShortName": "ZM Nuke",
+    "Color": "{darkred}",
+    "HammerID": "657",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "565",
+    "AbilityList": [
+      {
+        "ButtonID": "660",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  }
+]

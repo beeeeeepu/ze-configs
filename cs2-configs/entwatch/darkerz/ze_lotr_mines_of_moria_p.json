@@ -1,0 +1,70 @@
+[
+  {
+    "Name": "The Ring",
+    "ShortName": "Ring",
+    "Color": "{yellow}",
+    "HammerID": "1878",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Gandalf's Staff",
+    "ShortName": "Gandalf",
+    "Color": "{grey}",
+    "HammerID": "1858",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1862",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3610",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Saruman's Staff",
+    "ShortName": "Saruman",
+    "Color": "{white}",
+    "HammerID": "1852",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1848",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3611",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
+    "HammerID": "3601",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3595",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3600",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "3600"
+      }
+    ]
+  },
+  {
+    "Name": "Trampoline",
+    "ShortName": "Trampoline",
+    "Color": "{olive}",
+    "HammerID": "3578",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3580",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Coin Gun",
+    "ShortName": "Coin",
+    "Color": "{yellow}",
+    "HammerID": "3558",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3549",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Microsoft Firewall",
+    "ShortName": "Firewall",
+    "Color": "{orange}",
+    "HammerID": "3507",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3509",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Earth Builder",
+    "ShortName": "Builder",
+    "Color": "{olive}",
+    "HammerID": "3490",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3504",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 10,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Jetpack",
+    "ShortName": "Jetpack",
+    "Color": "{red}",
+    "HammerID": "3453",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3456",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Push Gun",
+    "ShortName": "Push",
+    "Color": "{green}",
+    "HammerID": "3438",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3436",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Rocket Launcher",
+    "ShortName": "ZM Rocket",
+    "Color": "{red}",
+    "HammerID": "3688",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3705",
+    "AbilityList": [
+      {
+        "ButtonID": "3695",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Mines",
+    "ShortName": "ZM Mines",
+    "Color": "{darkred}",
+    "HammerID": "3672",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3676",
+    "AbilityList": [
+      {
+        "ButtonID": "3660",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 5,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Earth Builder",
+    "ShortName": "ZM Builder",
+    "Color": "{olive}",
+    "HammerID": "3637",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3652",
+    "AbilityList": [
+      {
+        "ButtonID": "3639",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 13,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Ladder",
+    "ShortName": "ZM Ladder",
+    "Color": "{grey}",
+    "HammerID": "3625",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3629",
+    "AbilityList": [
+      {
+        "ButtonID": "3616",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  }
+]

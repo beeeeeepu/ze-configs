@@ -1,0 +1,514 @@
+[
+  {
+    "Name": "Prototype Flamethrower",
+    "ShortName": "Protoype",
+    "Color": "{red}",
+    "HammerID": "13729",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "13730",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "13745",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "13745"
+      }
+    ]
+  },
+  {
+    "Name": "Immunizer Backpack",
+    "ShortName": "Immunizer BP",
+    "Color": "{white}",
+    "HammerID": "4544",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4546",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 1,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Unlimited Ammo",
+    "ShortName": "Ammo",
+    "Color": "{green}",
+    "HammerID": "4533",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4536",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Hyperboost",
+    "ShortName": "Hyperboost",
+    "Color": "{red}",
+    "HammerID": "4520",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4522",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 1,
+        "CoolDown": 48,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Immunizer Weapon",
+    "ShortName": "Immunizer WPN",
+    "Color": "{blue}",
+    "HammerID": "4494",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4498",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "4490",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zero Gravity",
+    "ShortName": "Gravity",
+    "Color": "{yellow}",
+    "HammerID": "4467",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4470",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mutator Backpack",
+    "ShortName": "Mutator",
+    "Color": "{grey}",
+    "HammerID": "993",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "995",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Portal Gun",
+    "ShortName": "Portal",
+    "Color": "{blue}",
+    "HammerID": "978",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "979",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Thunder Gun",
+    "ShortName": "Thunder",
+    "Color": "{green}",
+    "HammerID": "954",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "957",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 4,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "M60 Minigun",
+    "ShortName": "Minigun",
+    "Color": "{grey}",
+    "HammerID": "292",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "297",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gauss Beam Rifle",
+    "ShortName": "Beam",
+    "Color": "{darkblue}",
+    "HammerID": "182",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "183",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mines",
+    "ShortName": "Mines",
+    "Color": "{red}",
+    "HammerID": "371",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "376",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 3,
+        "MaxUses": 16,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Turret",
+    "ShortName": "Turret",
+    "Color": "{red}",
+    "HammerID": "81",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "79",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mech",
+    "ShortName": "Mech",
+    "Color": "{blue}",
+    "HammerID": "234",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "230",
+    "AbilityList": []
+  },
+  {
+    "Name": "Juggernaut",
+    "ShortName": "Juggernaut",
+    "Color": "{olive}",
+    "HammerID": "727",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "728",
+    "AbilityList": []
+  },
+  {
+    "Name": "Soldier NPC",
+    "ShortName": "NPC",
+    "Color": "{grey}",
+    "HammerID": "680",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Train Driver",
+    "ShortName": "Train Driver",
+    "Color": "{blue}",
+    "HammerID": "6",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Fuel Can",
+    "ShortName": "Fuel",
+    "Color": "{grey}",
+    "HammerID": "13078",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Shockwave",
+    "ShortName": "ZM Shockwave",
+    "Color": "{yellow}",
+    "HammerID": "5071",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5068",
+    "AbilityList": [
+      {
+        "ButtonID": "5065",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 7,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Antlion",
+    "ShortName": "ZM Antlion",
+    "Color": "{yellow}",
+    "HammerID": "5050",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5048",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Jumper",
+    "ShortName": "ZM Jumper",
+    "Color": "{red}",
+    "HammerID": "630",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "624",
+    "AbilityList": [
+      {
+        "ButtonID": "628",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Vortigaunt",
+    "ShortName": "ZM Vortigaunt",
+    "Color": "{olive}",
+    "HammerID": "408",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "405",
+    "AbilityList": [
+      {
+        "ButtonID": "409",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Freezer",
+    "ShortName": "ZM Freezer",
+    "Color": "{olive}",
+    "HammerID": "388",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "383",
+    "AbilityList": [
+      {
+        "ButtonID": "385",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Summoner",
+    "ShortName": "ZM Summoner",
+    "Color": "{red}",
+    "HammerID": "353",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "350",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Predator",
+    "ShortName": "ZM Predator",
+    "Color": "{red}",
+    "HammerID": "339",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "337",
+    "AbilityList": [
+      {
+        "ButtonID": "329",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "329"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Tank",
+    "ShortName": "ZM Tank",
+    "Color": "{red}",
+    "HammerID": "159",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "167",
+    "AbilityList": [
+      {
+        "ButtonID": "170",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Alma",
+    "ShortName": "ZM Alma",
+    "Color": "{red}",
+    "HammerID": "52",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "48",
+    "AbilityList": [
+      {
+        "ButtonID": "51",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Alex Mercer",
+    "ShortName": "ZM Alex",
+    "Color": "{red}",
+    "HammerID": "126",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "13197",
+    "AbilityList": []
+  }
+]

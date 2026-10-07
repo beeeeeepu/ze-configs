@@ -1,0 +1,161 @@
+[
+  {
+    "Name": "Pidaras Freezer",
+    "ShortName": "Freezer",
+    "Color": "{blue}",
+    "HammerID": "4757",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4758",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Holy Grenade",
+    "ShortName": "Holy",
+    "Color": "{white}",
+    "HammerID": "orange",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4693",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal/Ammo",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "4680",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "7619",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "4681",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Pidaras Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
+    "HammerID": "3823",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3835",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3829",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "3829"
+      }
+    ]
+  },
+  {
+    "Name": "Pidaras Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{pink}",
+    "HammerID": "3816",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3817",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3822",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false,
+        "MathID": "3822"
+      }
+    ]
+  },
+  {
+    "Name": "Minigun",
+    "ShortName": "Minigun",
+    "Color": "{grey}",
+    "HammerID": "3803",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3798",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3788",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "3788"
+      }
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "Name": "Heal Potion",
+    "ShortName": "Heal",
+    "Color": "{pink}",
+    "HammerID": "4838",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4836",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "4834",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Rex Barrier",
+    "ShortName": "Barrier",
+    "Color": "{green}",
+    "HammerID": "4901",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4897",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "5441",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{yellow}",
+    "HammerID": "4826",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4823",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "5443",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 35,
+        "Ignore": false,
+        "MathID": "5443"
+      }
+    ]
+  },
+  {
+    "Name": "Sacred Stone",
+    "ShortName": "Stone",
+    "Color": "{blue}",
+    "HammerID": "4882",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4880",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3881",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Roy",
+    "ShortName": "Roy",
+    "Color": "{white}",
+    "HammerID": "4841",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4844",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Key",
+    "ShortName": "Key",
+    "Color": "{grey}",
+    "HammerID": "4909",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Revenge",
+    "ShortName": "ZM Revenge",
+    "Color": "{darkred}",
+    "HammerID": "4894",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4889",
+    "AbilityList": [
+      {
+        "ButtonID": "4892",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "4892",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Nightmare",
+    "ShortName": "ZM Nightmare",
+    "Color": "{darkred}",
+    "HammerID": "4270",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4251",
+    "AbilityList": [
+      {
+        "ButtonID": "4276",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Skeleton",
+    "ShortName": "ZM Skeleton",
+    "Color": "{grey}",
+    "HammerID": "4256",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4257",
+    "AbilityList": [
+      {
+        "ButtonID": "3866",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire Demon",
+    "ShortName": "ZM Demon",
+    "Color": "{orange}",
+    "HammerID": "4265",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4263",
+    "AbilityList": [
+      {
+        "ButtonID": "4268",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

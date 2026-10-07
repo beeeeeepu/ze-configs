@@ -1,0 +1,124 @@
+[
+  {
+    "Name": "Medic Bag",
+    "ShortName": "Heal",
+    "Color": "{green}",
+    "HammerID": "77883",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "77885",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bear Trap",
+    "ShortName": "Trap",
+    "Color": "{green}",
+    "HammerID": "68540",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "68542",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Claymore",
+    "ShortName": "Claymore",
+    "Color": "{green}",
+    "HammerID": "68625",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "68627",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Crate",
+    "ShortName": "Ammo",
+    "Color": "{green}",
+    "HammerID": "77412",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "77413",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Breach Charge",
+    "ShortName": "ZM Breach",
+    "Color": "{red}",
+    "HammerID": "68590",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "68593",
+    "AbilityList": [
+      {
+        "ButtonID": "68604",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Poison Grenade",
+    "ShortName": "ZM Poison",
+    "Color": "{red}",
+    "HammerID": "77832",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "77830",
+    "AbilityList": [
+      {
+        "ButtonID": "77834",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  }
+]

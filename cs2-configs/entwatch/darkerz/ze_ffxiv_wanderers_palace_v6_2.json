@@ -1,0 +1,474 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "1146",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1895",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Blizzard",
+    "ShortName": "Blizzard",
+    "Color": "{blue}",
+    "HammerID": "1156",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1154",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gravity",
+    "ShortName": "Gravity",
+    "Color": "{grey}",
+    "HammerID": "1152",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1881",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Thunder",
+    "ShortName": "Thunder",
+    "Color": "{blue}",
+    "HammerID": "1216",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1214",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heart of Light",
+    "ShortName": "Light",
+    "Color": "{white}",
+    "HammerID": "1150",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1893",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ley Lines",
+    "ShortName": "Lines",
+    "Color": "{blue}",
+    "HammerID": "1283",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1281",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bahamut Weapon",
+    "ShortName": "Bahamut",
+    "Color": "{grey}",
+    "HammerID": "1148",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1885",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dream Breaker",
+    "ShortName": "Breaker",
+    "Color": "{pink}",
+    "HammerID": "1785",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1783",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Apex Arrow",
+    "ShortName": "Arrow",
+    "Color": "{white}",
+    "HammerID": "1279",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1275",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ricochet",
+    "ShortName": "Ricochet",
+    "Color": "{pink}",
+    "HammerID": "1272",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1269",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Dream Weaver",
+    "ShortName": "ZM Weaver",
+    "Color": "{pink}",
+    "HammerID": "1802",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1800",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{red}",
+    "HammerID": "1179",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1902",
+    "AbilityList": [
+      {
+        "ButtonID": "1563",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7535",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Malefic",
+    "ShortName": "ZM Malefic",
+    "Color": "{grey}",
+    "HammerID": "1177",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1546",
+    "AbilityList": [
+      {
+        "ButtonID": "1891",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7532",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Flare",
+    "ShortName": "ZM Flare",
+    "Color": "{red}",
+    "HammerID": "1174",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1175",
+    "AbilityList": [
+      {
+        "ButtonID": "1170",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7533",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Flood",
+    "ShortName": "ZM Flood",
+    "Color": "{blue}",
+    "HammerID": "1165",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1166",
+    "AbilityList": [
+      {
+        "ButtonID": "1163",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7534",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 9,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Shield",
+    "ShortName": "ZM Shield",
+    "Color": "{yellow}",
+    "HammerID": "1180",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1910",
+    "AbilityList": [
+      {
+        "ButtonID": "1539",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7536",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Goobbue",
+    "ShortName": "ZM Goobbue",
+    "Color": "{grey}",
+    "HammerID": "1158",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1159",
+    "AbilityList": [
+      {
+        "ButtonID": "1751",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1750",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Inner Release",
+    "ShortName": "ZM Release",
+    "Color": "{red}",
+    "HammerID": "1178",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "829",
+    "AbilityList": []
+  },
+  {
+    "Name": "Toy Dakotec",
+    "ShortName": "Dakotec",
+    "Color": "{grey}",
+    "HammerID": "1355",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "1352",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": true
+      }
+    ]
+  },
+  {
+    "Name": "Toy Lishang",
+    "ShortName": "Lishang",
+    "Color": "{grey}",
+    "HammerID": "1358",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Toy Tianli",
+    "ShortName": "Tianli",
+    "Color": "{grey}",
+    "HammerID": "1361",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Toy Consolo",
+    "ShortName": "Consolo",
+    "Color": "{grey}",
+    "HammerID": "1366",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "1363",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": true
+      }
+    ]
+  },
+  {
+    "Name": "Toy MS",
+    "ShortName": "MS",
+    "Color": "{grey}",
+    "HammerID": "1369",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": []
+  }
+]

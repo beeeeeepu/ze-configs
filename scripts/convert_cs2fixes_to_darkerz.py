@@ -102,3 +102,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    import finalize_darkerz_json  # emit strict JSON after conversion

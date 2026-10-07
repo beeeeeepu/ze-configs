@@ -1,0 +1,292 @@
+[
+  {
+    "Name": "Gravity Materia",
+    "ShortName": "Gravity",
+    "Color": "{purple}",
+    "HammerID": "1422",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1420",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Earth Materia",
+    "ShortName": "Earth",
+    "Color": "{orange}",
+    "HammerID": "1414",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1412",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 75,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Electro Materia",
+    "ShortName": "Electro",
+    "Color": "{blue}",
+    "HammerID": "1405",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1403",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1411",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false,
+        "MathID": "1411"
+      }
+    ]
+  },
+  {
+    "Name": "Fire Materia",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "1395",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1393",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Aqua Materia",
+    "ShortName": "Aqua",
+    "Color": "{darkblue}",
+    "HammerID": "1384",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1382",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice Materia",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "149",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1345",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal Materia",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "1334",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1332",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wind Materia",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "1314",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1312",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barrier Materia",
+    "ShortName": "Barrier",
+    "Color": "{yellow}",
+    "HammerID": "1292",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1290",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bio Materia",
+    "ShortName": "Bio",
+    "Color": "{green}",
+    "HammerID": "1284",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1282",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mimic Materia",
+    "ShortName": "Mimic",
+    "Color": "{pink}",
+    "HammerID": "828",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "834",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ultima Materia",
+    "ShortName": "Ultima",
+    "Color": "{green}",
+    "HammerID": "1300",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1298",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cosmo Ultima",
+    "ShortName": "Ultima",
+    "Color": "{green}",
+    "HammerID": "566",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "500",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "482",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Sephiroth",
+    "ShortName": "ZM Sephiroth",
+    "Color": "{darkred}",
+    "HammerID": "1854",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1865",
+    "AbilityList": []
+  }
+]

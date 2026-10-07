@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
+    "HammerID": "46",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Chainsaw",
+    "ShortName": "Chainsaw",
+    "Color": "{grey}",
+    "HammerID": "162",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Cade",
+    "ShortName": "Cade",
+    "Color": "{grey}",
+    "HammerID": "263",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "263",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Big Cade",
+    "ShortName": "Big Cade",
+    "Color": "{grey}",
+    "HammerID": "13",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "13",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

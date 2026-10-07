@@ -1,0 +1,313 @@
+[
+  {
+    "Name": "Heal 1",
+    "ShortName": "Heal 1",
+    "Color": "{white}",
+    "HammerID": "1801",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1677",
+    "AbilityList": [
+      {
+        "ButtonID": "1799",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1809",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false,
+        "Name": "Large"
+      }
+    ]
+  },
+  {
+    "Name": "Heal 2",
+    "ShortName": "Heal 2",
+    "Color": "{white}",
+    "HammerID": "1594",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1577",
+    "AbilityList": [
+      {
+        "ButtonID": "1590",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1588",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false,
+        "Name": "Large"
+      }
+    ]
+  },
+  {
+    "Name": "Earth 1",
+    "ShortName": "Earth 1",
+    "Color": "{orange}",
+    "HammerID": "1816",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1663",
+    "AbilityList": [
+      {
+        "ButtonID": "1817",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1826",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "Name": "Small"
+      }
+    ]
+  },
+  {
+    "Name": "Earth 2",
+    "ShortName": "Earth 2",
+    "Color": "{orange}",
+    "HammerID": "1603",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1575",
+    "AbilityList": [
+      {
+        "ButtonID": "1606",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1605",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "Name": "Small"
+      }
+    ]
+  },
+  {
+    "Name": "Water 1",
+    "ShortName": "Water 1",
+    "Color": "{darkblue}",
+    "HammerID": "1245",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1278",
+    "AbilityList": [
+      {
+        "ButtonID": "1239",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1246",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false,
+        "Name": "Bubble"
+      }
+    ]
+  },
+  {
+    "Name": "Water 2",
+    "ShortName": "Water 2",
+    "Color": "{darkblue}",
+    "HammerID": "1264",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1284",
+    "AbilityList": [
+      {
+        "ButtonID": "1258",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1265",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false,
+        "Name": "Bubble"
+      }
+    ]
+  },
+  {
+    "Name": "Wind 1",
+    "ShortName": "Wind 1",
+    "Color": "{green}",
+    "HammerID": "703",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "784",
+    "AbilityList": [
+      {
+        "ButtonID": "698",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "701",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false,
+        "Name": "Laser"
+      }
+    ]
+  },
+  {
+    "Name": "Wind 2",
+    "ShortName": "Wind 2",
+    "Color": "{green}",
+    "HammerID": "667",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "746",
+    "AbilityList": [
+      {
+        "ButtonID": "660",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "669",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false,
+        "Name": "Laser"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Death",
+    "ShortName": "ZM Death",
+    "Color": "{purple}",
+    "HammerID": "732",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "733",
+    "AbilityList": [
+      {
+        "ButtonID": "719",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Haste",
+    "ShortName": "ZM Haste",
+    "Color": "{green}",
+    "HammerID": "738",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "739",
+    "AbilityList": [
+      {
+        "ButtonID": "720",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Curse",
+    "ShortName": "ZM Curse",
+    "Color": "{grey}",
+    "HammerID": "735",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "736",
+    "AbilityList": [
+      {
+        "ButtonID": "721",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

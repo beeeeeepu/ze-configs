@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "Berserk",
+    "ShortName": "Berserk",
+    "Color": "{red}",
+    "HammerID": "442",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "385",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 18,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Redeemer",
+    "ShortName": "Redeemer",
+    "Color": "{white}",
+    "HammerID": "1743",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1749",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Rocket",
+    "Color": "{red}",
+    "HammerID": "1453",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1762",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 7,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Flak Cannon",
+    "ShortName": "Flak",
+    "Color": "{grey}",
+    "HammerID": "1441",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1445",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Lightning Rifle",
+    "ShortName": "Lightning",
+    "Color": "{yellow}",
+    "HammerID": "1436",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1432",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  }
+]

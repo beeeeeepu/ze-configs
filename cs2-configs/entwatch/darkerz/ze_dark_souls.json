@@ -1,0 +1,593 @@
+[
+  {
+    "Name": "Logan Blocker",
+    "ShortName": "Logan Blocker",
+    "Color": "{default}",
+    "HammerID": "-1",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "202227",
+    "AbilityList": []
+  },
+  {
+    "Name": "Estus Flask",
+    "ShortName": "Estus",
+    "Color": "{white}",
+    "HammerID": "140894",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143847",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142482",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false,
+        "MathID": "142482"
+      }
+    ]
+  },
+  {
+    "Name": "Dark Orb",
+    "ShortName": "Dark Orb",
+    "Color": "{purple}",
+    "HammerID": "140892",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143839",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142478",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false,
+        "MathID": "142478"
+      }
+    ]
+  },
+  {
+    "Name": "Dark Storm",
+    "ShortName": "Dark Storm",
+    "Color": "{purple}",
+    "HammerID": "140885",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143823",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142470",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "142470"
+      }
+    ]
+  },
+  {
+    "Name": "Chaos Storm",
+    "ShortName": "Chaos Storm",
+    "Color": "{red}",
+    "HammerID": "140886",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143825",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142471",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "142471"
+      }
+    ]
+  },
+  {
+    "Name": "Fireball",
+    "ShortName": "Fireball",
+    "Color": "{red}",
+    "HammerID": "140890",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143833",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142475",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false,
+        "MathID": "142475"
+      }
+    ]
+  },
+  {
+    "Name": "Hidden Body",
+    "ShortName": "Hidden Body",
+    "Color": "{blue}",
+    "HammerID": "140884",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143821",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142469",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false,
+        "MathID": "142469"
+      }
+    ]
+  },
+  {
+    "Name": "Great Heavy Soul Arrow",
+    "ShortName": "Soul Arrow",
+    "Color": "{blue}",
+    "HammerID": "140891",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143837",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142477",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false,
+        "MathID": "142477"
+      }
+    ]
+  },
+  {
+    "Name": "White Dragon Breath",
+    "ShortName": "Dragon Breath",
+    "Color": "{blue}",
+    "HammerID": "140889",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143831",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142474",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 7,
+        "Ignore": false,
+        "MathID": "142474"
+      }
+    ]
+  },
+  {
+    "Name": "Spook",
+    "ShortName": "Spook",
+    "Color": "{blue}",
+    "HammerID": "140895",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143849",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142483",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 7,
+        "Ignore": false,
+        "MathID": "142483"
+      }
+    ]
+  },
+  {
+    "Name": "Soothing Sunlight",
+    "ShortName": "Sunlight",
+    "Color": "{yellow}",
+    "HammerID": "140893",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143845",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142481",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 7,
+        "Ignore": false,
+        "MathID": "142481"
+      }
+    ]
+  },
+  {
+    "Name": "Blessed Weapon",
+    "ShortName": "Blessed Weapon",
+    "Color": "{yellow}",
+    "HammerID": "140883",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143815",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142466",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "142466"
+      }
+    ]
+  },
+  {
+    "Name": "Lightning Spear",
+    "ShortName": "Lightning Spear",
+    "Color": "{yellow}",
+    "HammerID": "140888",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143829",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142473",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false,
+        "MathID": "142473"
+      }
+    ]
+  },
+  {
+    "Name": "Wrath of the Gods",
+    "ShortName": "Wrath",
+    "Color": "{yellow}",
+    "HammerID": "140887",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143827",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142472",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false,
+        "MathID": "142472"
+      }
+    ]
+  },
+  {
+    "Name": "Blood Shield",
+    "ShortName": "Blood Shield",
+    "Color": "{red}",
+    "HammerID": "144780",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Grass Crest Shield",
+    "ShortName": "Grass Shield",
+    "Color": "{olive}",
+    "HammerID": "144791",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Sunlight Shield",
+    "ShortName": "Sun Shield",
+    "Color": "{white}",
+    "HammerID": "145147",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Skull Lantern",
+    "ShortName": "Lantern",
+    "Color": "{white}",
+    "HammerID": "140896",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Black Flame",
+    "ShortName": "ZM Flame",
+    "Color": "{purple}",
+    "HammerID": "140882",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143843",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142480",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false,
+        "MathID": "142480"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Rapport",
+    "ShortName": "ZM Rapport",
+    "Color": "{yellow}",
+    "HammerID": "140880",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143835",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142476",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false,
+        "MathID": "142476"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Power Within",
+    "ShortName": "ZM Power Within",
+    "Color": "{darkred}",
+    "HammerID": "140878",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143817",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142467",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false,
+        "MathID": "142467"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Poison Mist",
+    "ShortName": "ZM Poison",
+    "Color": "{red}",
+    "HammerID": "140881",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143841",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142479",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false,
+        "MathID": "142479"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Toxic Mist",
+    "ShortName": "ZM Mist",
+    "Color": "{purple}",
+    "HammerID": "140879",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "143819",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "142468",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false,
+        "MathID": "142468"
+      }
+    ]
+  }
+]

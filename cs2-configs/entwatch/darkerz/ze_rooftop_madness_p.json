@@ -1,0 +1,397 @@
+[
+  {
+    "Name": "Bouncy Bed",
+    "ShortName": "Bed",
+    "Color": "{white}",
+    "HammerID": "1028",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1025",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "C4",
+    "ShortName": "C4",
+    "Color": "{red}",
+    "HammerID": "1434",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1435",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "DDR",
+    "ShortName": "DDR",
+    "Color": "{green}",
+    "HammerID": "376",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "374",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Decoy",
+    "ShortName": "Decoy",
+    "Color": "{grey}",
+    "HammerID": "612",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "608",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dragonslayer",
+    "ShortName": "Dragonslayer",
+    "Color": "{red}",
+    "HammerID": "939",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "937",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Force Gun",
+    "ShortName": "Force",
+    "Color": "{green}",
+    "HammerID": "1019",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1016",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Forklift",
+    "ShortName": "Forklift",
+    "Color": "{yellow}",
+    "HammerID": "591",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "589",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Freeze Mines",
+    "ShortName": "Mines",
+    "Color": "{blue}",
+    "HammerID": "914",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "911",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Grenade Crate",
+    "ShortName": "Grenades",
+    "Color": "{olive}",
+    "HammerID": "1134",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1132",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Hammer",
+    "ShortName": "Hammer",
+    "Color": "{grey}",
+    "HammerID": "91",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "76",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Molotov",
+    "ShortName": "Molotov",
+    "Color": "{orange}",
+    "HammerID": "1184",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1180",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Pod",
+    "ShortName": "Pod",
+    "Color": "{grey}",
+    "HammerID": "497",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Screwdriver",
+    "ShortName": "Screwdriver",
+    "Color": "{grey}",
+    "HammerID": "906",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "904",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Tetromino",
+    "ShortName": "Tetromino",
+    "Color": "{grey}",
+    "HammerID": "434",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "431",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Umbrella",
+    "ShortName": "Umbrella",
+    "Color": "{grey}",
+    "HammerID": "443",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "437",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Barrel",
+    "ShortName": "ZM Barrel",
+    "Color": "{orange}",
+    "HammerID": "1195",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1188",
+    "AbilityList": [
+      {
+        "ButtonID": "1193",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire",
+    "ShortName": "ZM FIre",
+    "Color": "{red}",
+    "HammerID": "1156",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1157",
+    "AbilityList": [
+      {
+        "ButtonID": "1154",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "48",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1159",
+    "AbilityList": [
+      {
+        "ButtonID": "1170",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Laser",
+    "ShortName": "ZM Laser",
+    "Color": "{red}",
+    "HammerID": "1131",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1127",
+    "AbilityList": [
+      {
+        "ButtonID": "1120",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Wind",
+    "ShortName": "ZM Wind",
+    "Color": "{green}",
+    "HammerID": "1143",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1141",
+    "AbilityList": [
+      {
+        "ButtonID": "1139",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  }
+]

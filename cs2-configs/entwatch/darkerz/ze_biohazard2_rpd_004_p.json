@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Rocket",
+    "Color": "{red}",
+    "HammerID": "357",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "110",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 3,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

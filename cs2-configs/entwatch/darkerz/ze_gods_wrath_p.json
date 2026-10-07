@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Burner Gun",
+    "ShortName": "Burner",
+    "Color": "{orange}",
+    "HammerID": "688",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "711",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Bow 1",
+    "ShortName": "Bow 1",
+    "Color": "{orange}",
+    "HammerID": "716",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "714",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Bow 2",
+    "ShortName": "Bow 2",
+    "Color": "{orange}",
+    "HammerID": "813",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "808",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

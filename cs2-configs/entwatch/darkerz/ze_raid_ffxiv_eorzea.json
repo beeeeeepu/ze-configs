@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "2B",
+    "ShortName": "2B",
+    "Color": "{grey}",
+    "HammerID": "2028",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2029",
+    "AbilityList": []
+  },
+  {
+    "Name": "Black Mage",
+    "ShortName": "Black Mage",
+    "Color": "{darkred}",
+    "HammerID": "2048",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2045",
+    "AbilityList": []
+  },
+  {
+    "Name": "Tank",
+    "ShortName": "Tank",
+    "Color": "{grey}",
+    "HammerID": "1843",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1844",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Ifrit Summon",
+    "ShortName": "ZM Ifrit",
+    "Color": "{darkred}",
+    "HammerID": "1199",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1201",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Leviathan Summon",
+    "ShortName": "ZM Leviathan",
+    "Color": "{grey}",
+    "HammerID": "1003",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1005",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Shiva Summon",
+    "ShortName": "ZM Shiva",
+    "Color": "{blue}",
+    "HammerID": "1175",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1176",
+    "AbilityList": []
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "Name": "Zombie Tou",
+    "ShortName": "ZM Tou",
+    "Color": "{darkred}",
+    "HammerID": "36071",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "37578",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Mud Monster",
+    "ShortName": "ZM Mud",
+    "Color": "{darkred}",
+    "HammerID": "36037",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "36035",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{darkred}",
+    "HammerID": "36032",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "36030",
+    "AbilityList": [
+      {
+        "ButtonID": "36039",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Creeper",
+    "ShortName": "ZM Creeper",
+    "Color": "{darkred}",
+    "HammerID": "36025",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "36027",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie YZ",
+    "ShortName": "ZM YZ",
+    "Color": "{darkred}",
+    "HammerID": "36011",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "37582",
+    "AbilityList": [
+      {
+        "ButtonID": "36014",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "36023",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "MathID": "36023"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Chainsaw",
+    "ShortName": "ZM Chainsaw",
+    "Color": "{darkred}",
+    "HammerID": "35990",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "35988",
+    "AbilityList": [
+      {
+        "ButtonID": "35992",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fear",
+    "ShortName": "ZM Fear",
+    "Color": "{darkred}",
+    "HammerID": "35999",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "37572",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Invisible",
+    "ShortName": "ZM Invis",
+    "Color": "{darkred}",
+    "HammerID": "35983",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "35981",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Hunter",
+    "ShortName": "ZM Hunter",
+    "Color": "{darkred}",
+    "HammerID": "35979",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "35970",
+    "AbilityList": [
+      {
+        "ButtonID": "35974",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  }
+]

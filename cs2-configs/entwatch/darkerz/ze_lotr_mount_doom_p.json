@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "The Ring",
+    "ShortName": "Ring",
+    "Color": "{yellow}",
+    "HammerID": "683",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Light of Eärendil",
+    "ShortName": "Light",
+    "Color": "{white}",
+    "HammerID": "724",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "995",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "997",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Radio",
+    "ShortName": "Radio",
+    "Color": "{purple}",
+    "HammerID": "892",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1011",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Nazgul",
+    "ShortName": "ZM Nazgul",
+    "Color": "{darkred}",
+    "HammerID": "355",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "865",
+    "AbilityList": []
+  }
+]

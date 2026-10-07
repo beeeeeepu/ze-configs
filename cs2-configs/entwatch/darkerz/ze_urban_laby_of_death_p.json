@@ -1,0 +1,266 @@
+[
+  {
+    "Name": "C4",
+    "ShortName": "C4",
+    "Color": "{red}",
+    "HammerID": "1904",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Secret Jetpack",
+    "ShortName": "Jetpack",
+    "Color": "{orange}",
+    "HammerID": "8075",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Freeze Ring",
+    "ShortName": "Freeze",
+    "Color": "{blue}",
+    "HammerID": "9031",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9039",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 68,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Landmines",
+    "ShortName": "Mines",
+    "Color": "{red}",
+    "HammerID": "9049",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9069",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "9054",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "9054"
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flamethrower",
+    "Color": "{red}",
+    "HammerID": "9087",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9085",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "9083",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "9083"
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Box",
+    "ShortName": "Ammo",
+    "Color": "{green}",
+    "HammerID": "9099",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9100",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 72,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sprint",
+    "ShortName": "Sprint",
+    "Color": "{olive}",
+    "HammerID": "9126",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9122",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Invulnerability",
+    "ShortName": "Invuln",
+    "Color": "{olive}",
+    "HammerID": "9131",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9135",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Push",
+    "ShortName": "Push",
+    "Color": "{green}",
+    "HammerID": "9144",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "9148",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 21,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Stopper",
+    "ShortName": "ZM Stopper",
+    "Color": "{red}",
+    "HammerID": "9159",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9157",
+    "AbilityList": [
+      {
+        "ButtonID": "9160",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Sucker",
+    "ShortName": "ZM Sucker",
+    "Color": "{red}",
+    "HammerID": "9174",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9172",
+    "AbilityList": [
+      {
+        "ButtonID": "9170",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Rage",
+    "ShortName": "ZM Rage",
+    "Color": "{red}",
+    "HammerID": "9186",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9184",
+    "AbilityList": [
+      {
+        "ButtonID": "9180",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 66,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{red}",
+    "HammerID": "9201",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9199",
+    "AbilityList": [
+      {
+        "ButtonID": "9195",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 68,
+        "Ignore": false
+      }
+    ]
+  }
+]
