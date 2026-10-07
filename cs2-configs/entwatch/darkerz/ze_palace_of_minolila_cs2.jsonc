@@ -1,0 +1,216 @@
+[
+  {
+    "Name": "Heal Magic",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "328",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "329",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Snow Magic",
+    "ShortName": "Snow",
+    "Color": "{white}",
+    "HammerID": "317",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "323",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Electro Magic",
+    "ShortName": "Electro",
+    "Color": "{yellow}",
+    "HammerID": "307",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "312",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wind Magic",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "303",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "304",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Frostmourn",
+    "ShortName": "Frostmourn",
+    "Color": "{darkblue}",
+    "HammerID": "279",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "277",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Earth Magic",
+    "ShortName": "Earth",
+    "Color": "{olive}",
+    "HammerID": "266",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "269",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gravity Magic",
+    "ShortName": "Gravity",
+    "Color": "{purple}",
+    "HammerID": "251",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "252",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity Magic",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "248",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "246",
+    "AbilityList": [
+      {
+        "ButtonID": "241",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Ice Magic",
+    "ShortName": "ZM Ice",
+    "Color": "{blue}",
+    "HammerID": "226",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "224",
+    "AbilityList": [
+      {
+        "ButtonID": "220",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 55,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal Magic",
+    "ShortName": "ZM Heal",
+    "Color": "{white}",
+    "HammerID": "216",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "214",
+    "AbilityList": [
+      {
+        "ButtonID": "210",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Touching Infection",
+    "ShortName": "ZM Infect",
+    "Color": "{red}",
+    "HammerID": "194",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "192",
+    "AbilityList": []
+  }
+]

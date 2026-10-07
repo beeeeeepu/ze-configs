@@ -1,0 +1,45 @@
+[
+  {
+    "Name": "Outline",
+    "ShortName": "Outline",
+    "Color": "{white}",
+    "HammerID": "928",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Item 1",
+    "ShortName": "ZM Item 1",
+    "Color": "{white}",
+    "HammerID": "580",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "571",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Item 2",
+    "ShortName": "ZM Item 2",
+    "Color": "{white}",
+    "HammerID": "529",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "573",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Item 3",
+    "ShortName": "ZM Item 3",
+    "Color": "{white}",
+    "HammerID": "505",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "588",
+    "AbilityList": []
+  }
+]

@@ -1,0 +1,163 @@
+// REVIEW: OnPass handler 23083 used for cooldown; verify button behavior; OnPass handler 23102 used for cooldown; verify button behavior; OnPass handler 23105 used for cooldown; verify button behavior; OnPass handler 23122 used for cooldown; verify button behavior; OnPass handler 31810 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "23084",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "23085",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cobweb",
+    "ShortName": "Cobweb",
+    "Color": "{grey}",
+    "HammerID": "23097",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "23100",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "23106",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "23109",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{grey}",
+    "HammerID": "23123",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "23125",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "TNT",
+    "ShortName": "TNT",
+    "Color": "{darkred}",
+    "HammerID": "31812",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "31808",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 180,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bucket 1",
+    "ShortName": "Bucket 1",
+    "Color": "{grey}",
+    "HammerID": "24501",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Bucket 2",
+    "ShortName": "Bucket 2",
+    "Color": "{grey}",
+    "HammerID": "24527",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Torch 1",
+    "ShortName": "Torch 1",
+    "Color": "{grey}",
+    "HammerID": "24627",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Torch 2",
+    "ShortName": "Torch 2",
+    "Color": "{grey}",
+    "HammerID": "26495",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Pickaxe 1",
+    "ShortName": "Pickaxe 1",
+    "Color": "{grey}",
+    "HammerID": "26542",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Pickaxe 2",
+    "ShortName": "Pickaxe 2",
+    "Color": "{grey}",
+    "HammerID": "26574",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

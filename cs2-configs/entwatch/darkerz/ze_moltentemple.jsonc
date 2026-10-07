@@ -1,0 +1,55 @@
+[
+  {
+    "Name": "Bow",
+    "ShortName": "Bow",
+    "Color": "{grey}",
+    "HammerID": "3659",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3656",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Virtue Blocker",
+    "ShortName": "Virtue Blocker",
+    "Color": "{default}",
+    "HammerID": "-1",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3680",
+    "AbilityList": []
+  },
+  {
+    "Name": "Illumination Blocker",
+    "ShortName": "Illumination Blocker",
+    "Color": "{default}",
+    "HammerID": "-1",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3685",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zephyr Blocker",
+    "ShortName": "Zephyr Blocker",
+    "Color": "{default}",
+    "HammerID": "-1",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3709",
+    "AbilityList": []
+  }
+]

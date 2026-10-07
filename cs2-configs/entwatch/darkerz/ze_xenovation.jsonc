@@ -1,0 +1,186 @@
+[
+  {
+    "Name": "Green Cannon",
+    "ShortName": "Green",
+    "Color": "{green}",
+    "HammerID": "4967",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4964",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Blue Cannon",
+    "ShortName": "Blue",
+    "Color": "{blue}",
+    "HammerID": "4846",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4847",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Xoly",
+    "ShortName": "Xoly",
+    "Color": "{pink}",
+    "HammerID": "4749",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4742",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 1,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Yellow Cannon",
+    "ShortName": "Yellow",
+    "Color": "{yellow}",
+    "HammerID": "4494",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4495",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Purple Plazma",
+    "ShortName": "Plazma",
+    "Color": "{purple}",
+    "HammerID": "4461",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4462",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Cannon 1",
+    "ShortName": "ZM Cannon 1",
+    "Color": "{red}",
+    "HammerID": "2922",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "8650",
+    "AbilityList": [
+      {
+        "ButtonID": "2904",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Cannon 2",
+    "ShortName": "ZM Cannon 2",
+    "Color": "{red}",
+    "HammerID": "2837",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "8652",
+    "AbilityList": [
+      {
+        "ButtonID": "2838",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Cannon 3",
+    "ShortName": "ZM Cannon 3",
+    "Color": "{red}",
+    "HammerID": "2780",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2782",
+    "AbilityList": [
+      {
+        "ButtonID": "2749",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Speed",
+    "ShortName": "ZM Speed",
+    "Color": "{red}",
+    "HammerID": "2686",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "8654",
+    "AbilityList": [
+      {
+        "ButtonID": "2681",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

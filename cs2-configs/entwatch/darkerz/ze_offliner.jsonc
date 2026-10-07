@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Shockwave",
+    "ShortName": "Shockwave",
+    "Color": "{green}",
+    "HammerID": "3979",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3970",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  }
+]

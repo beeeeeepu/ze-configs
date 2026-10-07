@@ -1,0 +1,187 @@
+// REVIEW: Unsupported event OnEqualTo on 3333; OnPass handler 374 used for cooldown; verify button behavior; OnPass handler 426 used for cooldown; verify button behavior; OnPass handler 434 used for cooldown; verify button behavior; OnPass handler 454 used for cooldown; verify button behavior; OnPass handler 475 used for cooldown; verify button behavior; OnPass handler 362 used for cooldown; verify button behavior; OnPass handler 382 used for cooldown; verify button behavior; OnPass handler 411 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Mapper Knife",
+    "ShortName": "Mapper",
+    "Color": "{grey}",
+    "HammerID": "3304",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "TriggerID": "3306",
+    "AbilityList": [
+      {
+        "ButtonID": "3333",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal Staff",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "373",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "375",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 140,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Classic Bow",
+    "ShortName": "Classic",
+    "Color": "{white}",
+    "HammerID": "346",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "348",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice Bow",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "420",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "417",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Explosive Bow",
+    "ShortName": "Explosive",
+    "Color": "{orange}",
+    "HammerID": "440",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "443",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Electric Bow",
+    "ShortName": "Electric",
+    "Color": "{blue}",
+    "HammerID": "461",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "464",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 25,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Freezer",
+    "ShortName": "ZM Feeze",
+    "Color": "{blue}",
+    "HammerID": "363",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "341",
+    "AbilityList": [
+      {
+        "ButtonID": "364",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "383",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "378",
+    "AbilityList": [
+      {
+        "ButtonID": "380",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Dragon",
+    "ShortName": "ZM Dragon",
+    "Color": "{red}",
+    "HammerID": "410",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "339",
+    "AbilityList": [
+      {
+        "ButtonID": "401",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 85,
+        "Ignore": false
+      }
+    ]
+  }
+]

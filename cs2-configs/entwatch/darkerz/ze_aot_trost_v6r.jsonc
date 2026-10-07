@@ -1,0 +1,381 @@
+// REVIEW: Unsupported event OnTrigger on 2838; Unsupported event OnTrigger on 2839; Unsupported event OnTrigger on 2837
+[
+  {
+    "Name": "Location",
+    "ShortName": "Location",
+    "Color": "{pink}",
+    "HammerID": "699",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2784",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "702",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2786",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "714",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2788",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "727",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2790",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wall",
+    "ShortName": "Wall",
+    "Color": "{olive}",
+    "HammerID": "751",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2792",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wind",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "762",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2794",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bazooka",
+    "ShortName": "Bazooka",
+    "Color": "{red}",
+    "HammerID": "579",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2772",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Colossal Titan",
+    "ShortName": "ZM Colossal",
+    "Color": "{red}",
+    "HammerID": "543",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "541",
+    "AbilityList": [
+      {
+        "ButtonID": "2770",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Beat Titan",
+    "ShortName": "ZM Beast",
+    "Color": "{red}",
+    "HammerID": "875",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "873",
+    "AbilityList": [
+      {
+        "ButtonID": "2806",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Armored Titan",
+    "ShortName": "ZM Armor",
+    "Color": "{red}",
+    "HammerID": "892",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "890",
+    "AbilityList": [
+      {
+        "ButtonID": "2808",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fat Titan",
+    "ShortName": "ZM Fat",
+    "Color": "{red}",
+    "HammerID": "823",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "821",
+    "AbilityList": [
+      {
+        "ButtonID": "2838",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "2796",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fat Titan",
+    "ShortName": "ZM Fat",
+    "Color": "{red}",
+    "HammerID": "832",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "830",
+    "AbilityList": [
+      {
+        "ButtonID": "2839",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "2798",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fat Titan",
+    "ShortName": "ZM Fat",
+    "Color": "{red}",
+    "HammerID": "904",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "902",
+    "AbilityList": [
+      {
+        "ButtonID": "2837",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "2810",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Titan",
+    "ShortName": "ZM Titan",
+    "Color": "{red}",
+    "HammerID": "468",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "466",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Titan",
+    "ShortName": "ZM Titan",
+    "Color": "{red}",
+    "HammerID": "484",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "482",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Jumper",
+    "ShortName": "ZM Jumper",
+    "Color": "{red}",
+    "HammerID": "839",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "836",
+    "AbilityList": [
+      {
+        "ButtonID": "2800",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Jumper",
+    "ShortName": "ZM Jumper",
+    "Color": "{red}",
+    "HammerID": "847",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "844",
+    "AbilityList": [
+      {
+        "ButtonID": "2802",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Jumper",
+    "ShortName": "ZM Jumper",
+    "Color": "{red}",
+    "HammerID": "858",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "855",
+    "AbilityList": [
+      {
+        "ButtonID": "2804",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,352 @@
+// REVIEW: Unsupported event OnTrigger on 13745; Unsupported event OnTrigger on 13744; Unsupported event OnTrigger on 13741; Unsupported event OnTrigger on 13743; Unsupported event OnTrigger on 13742; OnPass handler 15641 used for cooldown; verify button behavior; OnPass handler 15640 used for cooldown; verify button behavior; OnPass handler 15639 used for cooldown; verify button behavior; OnPass handler 15638 used for cooldown; verify button behavior; OnPass handler 15637 used for cooldown; verify button behavior; OnPass handler 15636 used for cooldown; verify button behavior; OnPass handler 15635 used for cooldown; verify button behavior; OnPass handler 15634 used for cooldown; verify button behavior; OnPass handler 15628 used for cooldown; verify button behavior; OnPass handler 15627 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Wind Magick",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "13023",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15499",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "13745",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Poison Magick",
+    "ShortName": "Poison",
+    "Color": "{green}",
+    "HammerID": "13022",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15497",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "13744",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice Magick",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "13021",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15495",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "13741",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Magick",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "13020",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15493",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "13743",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal Magick",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "13019",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15491",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "13742",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Esper Mateus",
+    "ShortName": "Mateus",
+    "Color": "{blue}",
+    "HammerID": "13029",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15517",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Holy Potion",
+    "ShortName": "Holy",
+    "Color": "{white}",
+    "HammerID": "13028",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15513",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speed Potion",
+    "ShortName": "Speed",
+    "Color": "{yellow}",
+    "HammerID": "13027",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15511",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Potion",
+    "ShortName": "Ammo",
+    "Color": "{yellow}",
+    "HammerID": "13026",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15509",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "HI Potion",
+    "ShortName": "HI Potion",
+    "Color": "{yellow}",
+    "HammerID": "13025",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15507",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "HP Potion",
+    "ShortName": "HP Potion",
+    "Color": "{yellow}",
+    "HammerID": "13024",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15505",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire Magick",
+    "ShortName": "ZM Fire",
+    "Color": "{red}",
+    "HammerID": "13034",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "13328",
+    "AbilityList": [
+      {
+        "ButtonID": "15503",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Frost Magick",
+    "ShortName": "ZM Frost",
+    "Color": "{blue}",
+    "HammerID": "13033",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "13326",
+    "AbilityList": [
+      {
+        "ButtonID": "15501",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Lure",
+    "ShortName": "ZM Lure",
+    "Color": "{purple}",
+    "HammerID": "13032",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "13324",
+    "AbilityList": [
+      {
+        "ButtonID": "15489",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 85,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Warp",
+    "ShortName": "ZM Warp",
+    "Color": "{red}",
+    "HammerID": "13031",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "13322",
+    "AbilityList": [
+      {
+        "ButtonID": "15487",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  }
+]

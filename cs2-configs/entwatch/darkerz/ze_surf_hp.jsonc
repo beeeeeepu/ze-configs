@@ -1,0 +1,63 @@
+[
+  {
+    "Name": "Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{grey}",
+    "HammerID": "93",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "91",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 2,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "God Heal",
+    "ShortName": "God Heal",
+    "Color": "{orange}",
+    "HammerID": "150",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Once Heal",
+    "ShortName": "Once Heal",
+    "Color": "{olive}",
+    "HammerID": "66",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Crossbow",
+    "ShortName": "ZM Crossbow",
+    "Color": "{darkred}",
+    "HammerID": "102",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "121",
+    "AbilityList": [
+      {
+        "ButtonID": "100",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 5,
+        "MaxUses": 3,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  }
+]

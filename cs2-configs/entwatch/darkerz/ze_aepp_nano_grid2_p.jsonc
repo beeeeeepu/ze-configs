@@ -1,0 +1,106 @@
+// REVIEW: OnPass handler 210 used for cooldown; verify button behavior; OnPass handler 195 used for cooldown; verify button behavior; OnPass handler 50 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Ice Arrow",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "202",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1374",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Star Arrow",
+    "ShortName": "Star",
+    "Color": "{yellow}",
+    "HammerID": "187",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1376",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Arrow",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "54",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1362",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Double Jump",
+    "ShortName": "Jump",
+    "Color": "{green}",
+    "HammerID": "570",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "254",
+    "AbilityList": [
+      {
+        "ButtonID": "572",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dash Hoop 1",
+    "ShortName": "Dash 1",
+    "Color": "{grey}",
+    "HammerID": "27",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1457",
+    "AbilityList": []
+  },
+  {
+    "Name": "Dash Hoop 2",
+    "ShortName": "Dash 2",
+    "Color": "{grey}",
+    "HammerID": "21",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1459",
+    "AbilityList": []
+  }
+]

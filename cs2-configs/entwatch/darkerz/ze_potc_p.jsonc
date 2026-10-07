@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Jack's Pistol",
+    "ShortName": "Pistol",
+    "Color": "{green}",
+    "HammerID": "122",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "661",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

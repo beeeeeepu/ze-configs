@@ -1,0 +1,102 @@
+[
+  {
+    "Name": "Toaster",
+    "ShortName": "Toaster",
+    "Color": "{orange}",
+    "HammerID": "624",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "622",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Peanut Butter",
+    "ShortName": "Peanut Butter",
+    "Color": "{orange}",
+    "HammerID": "642",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "640",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sour Milk",
+    "ShortName": "Milk",
+    "Color": "{white}",
+    "HammerID": "650",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "648",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 6,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Jalapeno",
+    "ShortName": "Jalapeno",
+    "Color": "{red}",
+    "HammerID": "658",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "656",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 11,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Metal Ass",
+    "ShortName": "Metal Ass",
+    "Color": "{grey}",
+    "HammerID": "671",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "669",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  }
+]

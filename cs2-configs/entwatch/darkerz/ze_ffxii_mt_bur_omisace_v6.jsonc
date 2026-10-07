@@ -1,0 +1,569 @@
+// REVIEW: OnPass handler 4951 used for cooldown; verify button behavior; OnPass handler 5867 used for cooldown; verify button behavior; OnPass handler 5382 used for cooldown; verify button behavior; OnPass handler 2843 used for cooldown; verify button behavior; OnPass handler 5831 used for cooldown; verify button behavior; OnPass handler 5056 used for cooldown; verify button behavior; OnPass handler 5057 used for cooldown; verify button behavior; OnPass handler 5825 used for cooldown; verify button behavior; OnPass handler 3064 used for cooldown; verify button behavior; OnPass handler 6109 used for cooldown; verify button behavior; OnPass handler 5101 used for cooldown; verify button behavior; OnPass handler 5017 used for cooldown; verify button behavior; OnPass handler 4984 used for cooldown; verify button behavior; OnPass handler 5621 used for cooldown; verify button behavior; OnPass handler 5071 used for cooldown; verify button behavior; OnPass handler 5724 used for cooldown; verify button behavior; Unsupported event OnTrigger on 25193; Unsupported event OnTrigger on 25194; Unsupported event OnTrigger on 3271; Unsupported event OnTrigger on 3270; Unsupported event OnTrigger on 3882; Unsupported event OnTrigger on 3881; Unsupported event OnTrigger on 3099; Unsupported event OnTrigger on 3294; Unsupported event OnTrigger on 4883; Unsupported event OnTrigger on 4926
+[
+  {
+    "Name": "Aqua Magick",
+    "ShortName": "Aqua",
+    "Color": "{darkblue}",
+    "HammerID": "4931",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4908",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cure Magick",
+    "ShortName": "Cure",
+    "Color": "{white}",
+    "HammerID": "4930",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4927",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dark Magick",
+    "ShortName": "Dark",
+    "Color": "{purple}",
+    "HammerID": "5390",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5383",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Magick",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "5387",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3470",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Poison Magick",
+    "ShortName": "Poison",
+    "Color": "{green}",
+    "HammerID": "5397",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5393",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sand Magick",
+    "ShortName": "Sand",
+    "Color": "{yellow}",
+    "HammerID": "2757",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4952",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Thunder Magick",
+    "ShortName": "Thunder",
+    "Color": "{blue}",
+    "HammerID": "5055",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4959",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wind Magick",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "5648",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5955",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Limit Break Magick",
+    "ShortName": "Limit Break",
+    "Color": "{olive}",
+    "HammerID": "2613",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3065",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cortahombres",
+    "ShortName": "Cortahombres",
+    "Color": "{red}",
+    "HammerID": "6055",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2673",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Crystal Shield",
+    "ShortName": "Shield",
+    "Color": "{blue}",
+    "HammerID": "5099",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5103",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Devileye Crossbow",
+    "ShortName": "Crossbow",
+    "Color": "{grey}",
+    "HammerID": "6129",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5742",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "5418",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "5418"
+      }
+    ]
+  },
+  {
+    "Name": "Dragon Whisker",
+    "ShortName": "Dragon",
+    "Color": "{red}",
+    "HammerID": "5663",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5012",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Empyrean Rod",
+    "ShortName": "Rod",
+    "Color": "{grey}",
+    "HammerID": "3543",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "4848",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ensanguined Shield",
+    "ShortName": "Shield",
+    "Color": "{grey}",
+    "HammerID": "5620",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3731",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Loxley Bow",
+    "ShortName": "Loxley",
+    "Color": "{grey}",
+    "HammerID": "5066",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5067",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ultimate Blade",
+    "ShortName": "Blade",
+    "Color": "{yellow}",
+    "HammerID": "6436",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "6171",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Judge Zargabaath",
+    "ShortName": "ZM Zargabaath",
+    "Color": "{red}",
+    "HammerID": "25186",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "25187",
+    "AbilityList": [
+      {
+        "ButtonID": "25193",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "Name": "Main Weapon"
+      },
+      {
+        "ButtonID": "25194",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false,
+        "Name": "Ice Summon"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Judge Drace",
+    "ShortName": "ZM Drace",
+    "Color": "{red}",
+    "HammerID": "3275",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3276",
+    "AbilityList": [
+      {
+        "ButtonID": "3271",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false,
+        "Name": "Poison Shield"
+      },
+      {
+        "ButtonID": "3270",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false,
+        "Name": "Plague Summon"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Judge Gabranth",
+    "ShortName": "ZM Gabranth",
+    "Color": "{red}",
+    "HammerID": "3886",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3876",
+    "AbilityList": [
+      {
+        "ButtonID": "3882",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false,
+        "Name": "Speed Up"
+      },
+      {
+        "ButtonID": "3881",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false,
+        "Name": "Damage"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Damage Magick",
+    "ShortName": "ZM Damage",
+    "Color": "{red}",
+    "HammerID": "3102",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3100",
+    "AbilityList": [
+      {
+        "ButtonID": "5179",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3099",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fear Magick",
+    "ShortName": "ZM Fear",
+    "Color": "{pink}",
+    "HammerID": "3293",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3295",
+    "AbilityList": [
+      {
+        "ButtonID": "3091",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3294",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity Magick",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "3205",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3203",
+    "AbilityList": [
+      {
+        "ButtonID": "3210",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "4883",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Invisibility Magick",
+    "ShortName": "ZM Invis",
+    "Color": "{yellow}",
+    "HammerID": "4925",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "4917",
+    "AbilityList": [
+      {
+        "ButtonID": "4922",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "4926",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  }
+]

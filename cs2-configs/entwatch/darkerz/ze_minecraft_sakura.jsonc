@@ -1,0 +1,75 @@
+// REVIEW: OnPass handler 47010 used for cooldown; verify button behavior; OnPass handler 47896 used for cooldown; verify button behavior; OnPass handler 48022 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Ammo",
+    "ShortName": "Ammo",
+    "Color": "{white}",
+    "HammerID": "53074",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "47012",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Nuke",
+    "ShortName": "Nuke",
+    "Color": "{darkred}",
+    "HammerID": "47895",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "47960",
+    "AbilityList": [
+      {
+        "ButtonID": "47898",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 3,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Lucid Dreams",
+    "ShortName": "Lucid Dreams",
+    "Color": "{grey}",
+    "HammerID": "53075",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Creeper",
+    "ShortName": "ZM Creeper",
+    "Color": "{green}",
+    "HammerID": "48021",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "48026",
+    "AbilityList": [
+      {
+        "ButtonID": "47252",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 3,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  }
+]

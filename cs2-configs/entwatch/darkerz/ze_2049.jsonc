@@ -1,0 +1,83 @@
+// REVIEW: OnPass handler 4193 used for cooldown; verify button behavior; OnPass handler 4143 used for cooldown; verify button behavior; OnPass handler 4170 used for cooldown; verify button behavior; OnPass handler 4155 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Slow Ball",
+    "ShortName": "Slow",
+    "Color": "{yellow}",
+    "HammerID": "4187",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16914",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cone",
+    "ShortName": "Cone",
+    "Color": "{pink}",
+    "HammerID": "4185",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16906",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{pink}",
+    "HammerID": "4169",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16910",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Beam",
+    "ShortName": "Beam",
+    "Color": "{blue}",
+    "HammerID": "4162",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16902",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  }
+]

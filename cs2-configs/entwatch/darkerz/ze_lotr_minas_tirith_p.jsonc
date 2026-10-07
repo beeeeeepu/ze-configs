@@ -1,0 +1,506 @@
+// REVIEW: Unsupported event OnFalse on 357; Unsupported event OnEqualTo on 686; Unsupported event OnEqualTo on 687; Unsupported event OnTrigger on 713; Unsupported event OnTrigger on 699; Unsupported event OnTrue on 1115; Unsupported event OnUser1 on 720; Unsupported event OnUser1 on 718; Multiple triggers: only first TriggerID can be represented
+[
+  {
+    "Name": "Flag",
+    "ShortName": "Flag",
+    "Color": "{green}",
+    "HammerID": "901",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "TriggerID": "7779",
+    "AbilityList": []
+  },
+  {
+    "Name": "Armor",
+    "ShortName": "Armor",
+    "Color": "{orange}",
+    "HammerID": "145",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7781",
+    "AbilityList": []
+  },
+  {
+    "Name": "Ammo Barrel",
+    "ShortName": "Ammo",
+    "Color": "{green}",
+    "HammerID": "351",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7783",
+    "AbilityList": [
+      {
+        "ButtonID": "357",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Oil Barrel",
+    "ShortName": "Oil",
+    "Color": "{yellow}",
+    "HammerID": "865",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7870",
+    "AbilityList": [
+      {
+        "ButtonID": "868",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "MathID": "868"
+      }
+    ]
+  },
+  {
+    "Name": "Horse",
+    "ShortName": "Horse",
+    "Color": "{yellow}",
+    "HammerID": "675",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7785",
+    "AbilityList": []
+  },
+  {
+    "Name": "Gandalf",
+    "ShortName": "Gandalf",
+    "Color": "{grey}",
+    "HammerID": "683",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7787",
+    "AbilityList": [
+      {
+        "ButtonID": "686",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false,
+        "Name": "Light"
+      },
+      {
+        "ButtonID": "687",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false,
+        "Name": "Push"
+      }
+    ]
+  },
+  {
+    "Name": "White Knight",
+    "ShortName": "Knight",
+    "Color": "{white}",
+    "HammerID": "695",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7789",
+    "AbilityList": [
+      {
+        "ButtonID": "713",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 6,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "699",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 150,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Totem Pole",
+    "ShortName": "ZM Totem",
+    "Color": "{red2}",
+    "HammerID": "900",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": false,
+    "TriggerID": "7862",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie TNT Barrel",
+    "ShortName": "ZM TNT",
+    "Color": "{red2}",
+    "HammerID": "1117",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7864",
+    "AbilityList": [
+      {
+        "ButtonID": "1115",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Ladder",
+    "ShortName": "ZM Ladder",
+    "Color": "{red2}",
+    "HammerID": "157",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7866",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Ladder",
+    "ShortName": "ZM Ladder",
+    "Color": "{red2}",
+    "HammerID": "167",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Troll",
+    "ShortName": "ZM Troll",
+    "Color": "{red2}",
+    "HammerID": "348",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7797",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Balrog",
+    "ShortName": "ZM Balrog",
+    "Color": "{darkred}",
+    "HammerID": "716",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7799",
+    "AbilityList": [
+      {
+        "ButtonID": "720",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 3.5,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "718",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Nazgul",
+    "ShortName": "ZM Nazgul",
+    "Color": "{grey}",
+    "HammerID": "395",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "7755",
+    "AbilityList": []
+  },
+  {
+    "Name": "Barricade - Toilet",
+    "ShortName": "Barricade - Toilet",
+    "Color": "{blue}",
+    "HammerID": "760",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "237",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Bench",
+    "ShortName": "Barricade - Bench",
+    "Color": "{blue}",
+    "HammerID": "759",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "235",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Shelf",
+    "ShortName": "Barricade - Shelf",
+    "Color": "{blue}",
+    "HammerID": "758",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "241",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Fence",
+    "ShortName": "Barricade - Fence",
+    "Color": "{blue}",
+    "HammerID": "757",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "239",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Basket",
+    "ShortName": "Barricade - Basket",
+    "Color": "{blue}",
+    "HammerID": "757",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "225",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Plank",
+    "ShortName": "Barricade - Plank",
+    "Color": "{blue}",
+    "HammerID": "755",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "245",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Haybale",
+    "ShortName": "Barricade - Haybale",
+    "Color": "{blue}",
+    "HammerID": "752",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "229",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Big Boulder",
+    "ShortName": "Barricade - Big Boulder",
+    "Color": "{blue}",
+    "HammerID": "754",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "233",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Boulder",
+    "ShortName": "Barricade - Boulder",
+    "Color": "{blue}",
+    "HammerID": "751",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "231",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Barrel",
+    "ShortName": "Barricade - Barrel",
+    "Color": "{blue}",
+    "HammerID": "750",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "243",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Table",
+    "ShortName": "Barricade - Table",
+    "Color": "{blue}",
+    "HammerID": "753",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "247",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Crate",
+    "ShortName": "Barricade - Crate",
+    "Color": "{blue}",
+    "HammerID": "749",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "227",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade - Explosive Barrel",
+    "ShortName": "Barricade - Explosive Barrel",
+    "Color": "{blue}",
+    "HammerID": "736",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "249",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Proximity Mine",
+    "ShortName": "Mine",
+    "Color": "{orange}",
+    "HammerID": "184",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "185",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 24,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Push Gun",
+    "ShortName": "Push",
+    "Color": "{default}",
+    "HammerID": "188",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "194",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  }
+]

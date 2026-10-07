@@ -1,0 +1,23 @@
+// REVIEW: OnPass handler 556 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Baseball Bat",
+    "ShortName": "Bat",
+    "Color": "{grey}",
+    "HammerID": "588",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "199",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 11,
+        "Ignore": false
+      }
+    ]
+  }
+]

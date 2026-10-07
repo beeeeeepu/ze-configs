@@ -1,0 +1,63 @@
+// REVIEW: OnPass handler 1270 used for cooldown; verify button behavior; OnPass handler 1268 used for cooldown; verify button behavior; OnPass handler 1269 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{green}",
+    "HammerID": "738",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "834",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 8,
+        "CoolDown": 2,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Muldoon's Shotgun",
+    "ShortName": "Shotgun",
+    "Color": "{green}",
+    "HammerID": "745",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "832",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 7,
+        "CoolDown": 2,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Health Kit",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "1273",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "25",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

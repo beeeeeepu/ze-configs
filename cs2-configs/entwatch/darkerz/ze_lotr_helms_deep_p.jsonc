@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Radio",
+    "ShortName": "Radio",
+    "Color": "{grey}",
+    "HammerID": "413",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

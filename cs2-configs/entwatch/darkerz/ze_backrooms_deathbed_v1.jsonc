@@ -1,0 +1,62 @@
+[
+  {
+    "Name": "Tactical Flashlight 1",
+    "ShortName": "Flashlight 1",
+    "Color": "{white}",
+    "HammerID": "5687",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5700",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "5693",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "5693"
+      }
+    ]
+  },
+  {
+    "Name": "Tactical Flashlight 2",
+    "ShortName": "Flashlight 2",
+    "Color": "{white}",
+    "HammerID": "5709",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5723",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "5714",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "5714"
+      }
+    ]
+  }
+]

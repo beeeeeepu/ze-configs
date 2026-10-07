@@ -1,0 +1,132 @@
+// REVIEW: Unsupported event OnUser1 on 829
+[
+  {
+    "Name": "Healing Shitbox",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "830",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "824",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "829",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mini Cannon",
+    "ShortName": "Minigun",
+    "Color": "{yellow}",
+    "HammerID": "3589",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3587",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Beam Cannon",
+    "ShortName": "Beam",
+    "Color": "{purple}",
+    "HammerID": "3518",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3516",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Rocket Cannon",
+    "ShortName": "Rocket",
+    "Color": "{darkred}",
+    "HammerID": "3481",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3478",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 7.5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Herder",
+    "ShortName": "Herder",
+    "Color": "{green}",
+    "HammerID": "3706",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3702",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speeder",
+    "ShortName": "Speeder",
+    "Color": "{green}",
+    "HammerID": "547",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "543",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 7,
+        "Ignore": false
+      }
+    ]
+  }
+]

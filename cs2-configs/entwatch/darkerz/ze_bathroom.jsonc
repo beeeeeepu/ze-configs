@@ -1,0 +1,43 @@
+// REVIEW: OnPass handler 1594 used for cooldown; verify button behavior; OnPass handler 1799 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Sponge Builder",
+    "ShortName": "Sponge",
+    "Color": "{yellow}",
+    "HammerID": "1589",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1590",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 52,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mouse Trap",
+    "ShortName": "Trap",
+    "Color": "{orange}",
+    "HammerID": "1793",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1794",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 42,
+        "Ignore": false
+      }
+    ]
+  }
+]

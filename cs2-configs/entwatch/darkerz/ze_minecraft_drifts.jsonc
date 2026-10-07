@@ -1,0 +1,43 @@
+// REVIEW: Unsupported event OnPlayerUse on 1402; Unsupported event OnPlayerUse on 1407
+[
+  {
+    "Name": "Ammo",
+    "ShortName": "Ammo",
+    "Color": "{olive}",
+    "HammerID": "1401",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1402",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 12,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Book",
+    "ShortName": "Book",
+    "Color": "{grey}",
+    "HammerID": "1406",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1407",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  }
+]

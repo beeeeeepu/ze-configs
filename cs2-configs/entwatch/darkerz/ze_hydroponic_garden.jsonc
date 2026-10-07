@@ -1,0 +1,147 @@
+// REVIEW: OnPass handler 2001 used for cooldown; verify button behavior; OnPass handler 2113 used for cooldown; verify button behavior; OnPass handler 2121 used for cooldown; verify button behavior; OnPass handler 2027 used for cooldown; verify button behavior; OnPass handler 1966 used for cooldown; verify button behavior; OnPass handler 1980 used for cooldown; verify button behavior; OnPass handler 1990 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Beam",
+    "ShortName": "Beam",
+    "Color": "{blue}",
+    "HammerID": "2136",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2134",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cube",
+    "ShortName": "Cube",
+    "Color": "{grey}",
+    "HammerID": "2104",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2114",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{blue}",
+    "HammerID": "2124",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2118",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Stars",
+    "ShortName": "ZM Stars",
+    "Color": "{yellow}",
+    "HammerID": "1937",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1934",
+    "AbilityList": [
+      {
+        "ButtonID": "1999",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{red}",
+    "HammerID": "1968",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2033",
+    "AbilityList": [
+      {
+        "ButtonID": "2031",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Beam",
+    "ShortName": "ZM Beam",
+    "Color": "{blue}",
+    "HammerID": "1982",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1983",
+    "AbilityList": [
+      {
+        "ButtonID": "1969",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "1992",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1986",
+    "AbilityList": [
+      {
+        "ButtonID": "1988",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  }
+]

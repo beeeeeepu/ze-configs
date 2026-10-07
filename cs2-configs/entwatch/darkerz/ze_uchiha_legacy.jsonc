@@ -1,0 +1,309 @@
+[
+  {
+    "Name": "Katon",
+    "ShortName": "Katon",
+    "Color": "{red}",
+    "HammerID": "291",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "293",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Raiton",
+    "ShortName": "Raiton",
+    "Color": "{blue}",
+    "HammerID": "273",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "269",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Futon",
+    "ShortName": "Futon",
+    "Color": "{green}",
+    "HammerID": "263",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "261",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Suiton",
+    "ShortName": "Suiton",
+    "Color": "{darkblue}",
+    "HammerID": "254",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "258",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Chakra",
+    "ShortName": "Chakra",
+    "Color": "{pink}",
+    "HammerID": "248",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "250",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Doton",
+    "ShortName": "Doton",
+    "Color": "{orange}",
+    "HammerID": "240",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "234",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Rashomon",
+    "ShortName": "Rashomon",
+    "Color": "{red}",
+    "HammerID": "176",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "172",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Mokuton",
+    "ShortName": "Mokuton",
+    "Color": "{orange}",
+    "HammerID": "169",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "165",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Rinnegan",
+    "ShortName": "ZM Rinnegan",
+    "Color": "{pink}",
+    "HammerID": "227",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "228",
+    "AbilityList": [
+      {
+        "ButtonID": "230",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Kaleidoscope",
+    "ShortName": "ZM Kaleidoscope",
+    "Color": "{purple}",
+    "HammerID": "219",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "216",
+    "AbilityList": [
+      {
+        "ButtonID": "221",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Amateratsu",
+    "ShortName": "ZM Amateratsu",
+    "Color": "{red}",
+    "HammerID": "200",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "198",
+    "AbilityList": [
+      {
+        "ButtonID": "201",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Sharingan",
+    "ShortName": "ZM Sharingan",
+    "Color": "{purple}",
+    "HammerID": "193",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "188",
+    "AbilityList": [
+      {
+        "ButtonID": "190",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Genjutsu",
+    "ShortName": "ZM Genjutsu",
+    "Color": "{orange}",
+    "HammerID": "182",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "183",
+    "AbilityList": [
+      {
+        "ButtonID": "185",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Madara",
+    "ShortName": "ZM Madara",
+    "Color": "{red}",
+    "HammerID": "159",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "160",
+    "AbilityList": [
+      {
+        "ButtonID": "162",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Itachi",
+    "ShortName": "ZM Itachi",
+    "Color": "{red}",
+    "HammerID": "21",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "19",
+    "AbilityList": [
+      {
+        "ButtonID": "22",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 120,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+// REVIEW: Unsupported event OnTrigger on 100876; Unsupported event OnTrigger on 100878; Unsupported event OnTrigger on 100877
+[
+  {
+    "Name": "Health Box",
+    "ShortName": "Heal",
+    "Color": "{green}",
+    "HammerID": "734",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "100876",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 45,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Molotov",
+    "ShortName": "Molotov",
+    "Color": "{orange}",
+    "HammerID": "664",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "92640",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false,
+        "MathID": "92640"
+      }
+    ]
+  },
+  {
+    "Name": "Dogma Resistance",
+    "ShortName": "Dogma",
+    "Color": "{red}",
+    "HammerID": "1231",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "100878",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Freeze Beam",
+    "ShortName": "Zombie Freeze",
+    "Color": "{blue}",
+    "HammerID": "742",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "9984",
+    "AbilityList": [
+      {
+        "ButtonID": "100877",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

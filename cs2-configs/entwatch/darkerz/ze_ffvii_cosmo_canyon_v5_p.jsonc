@@ -1,0 +1,303 @@
+// REVIEW: Unsupported event OnTrigger on 482; Unsupported event OnTrigger on 357; Unsupported event OnTrigger on 396; Unsupported event OnTrigger on 390; Unsupported event OnTrigger on 383; Unsupported event OnTrigger on 374; Unsupported event OnTrigger on 412; Unsupported event OnTrigger on 418; Unsupported event OnTrigger on 1042; Unsupported event OnTrigger on 967; Unsupported event OnTrigger on 954; Unsupported event OnTrigger on 858; Unsupported event OnTrigger on 15400
+[
+  {
+    "Name": "Sleep Materia",
+    "ShortName": "Sleep",
+    "Color": "{purple}",
+    "HammerID": "484",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "482",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal Materia",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "356",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "357",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wind Materia",
+    "ShortName": "Wind",
+    "Color": "{green}",
+    "HammerID": "398",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "396",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gravity Materia",
+    "ShortName": "Gravity",
+    "Color": "{purple}",
+    "HammerID": "392",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "390",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bio Materia",
+    "ShortName": "Bio",
+    "Color": "{darkblue}",
+    "HammerID": "385",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "383",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Electro Materia",
+    "ShortName": "Electro",
+    "Color": "{blue}",
+    "HammerID": "378",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "422",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "MathID": "422"
+      }
+    ]
+  },
+  {
+    "Name": "Fire Materia",
+    "ShortName": "Fire",
+    "Color": "{orange}",
+    "HammerID": "361",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "374",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Earth Materia",
+    "ShortName": "Earth",
+    "Color": "{orange}",
+    "HammerID": "408",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "412",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ultima Materia",
+    "ShortName": "Ultima",
+    "Color": "{green}",
+    "HammerID": "414",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "418",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Phoenix Down",
+    "ShortName": "Phoenix",
+    "Color": "{yellow}",
+    "HammerID": "1038",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1042",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Poison Materia",
+    "ShortName": "ZM Poison",
+    "Color": "{green}",
+    "HammerID": "961",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "967",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fire Materia",
+    "ShortName": "ZM Fire",
+    "Color": "{red}",
+    "HammerID": "960",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "954",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Ice Materia",
+    "ShortName": "ZM Ice",
+    "Color": "{blue}",
+    "HammerID": "856",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "858",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Confuse Materia",
+    "ShortName": "ZM Confuse",
+    "Color": "{purple}",
+    "HammerID": "1363",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "15400",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Cactus",
+    "ShortName": "ZM Cactus",
+    "Color": "{green}",
+    "HammerID": "841",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

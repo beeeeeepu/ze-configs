@@ -1,0 +1,83 @@
+// REVIEW: OnPass handler 11232 used for cooldown; verify button behavior; OnPass handler 11231 used for cooldown; verify button behavior; OnPass handler 11230 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Fire Snake",
+    "ShortName": "Fire",
+    "Color": "{red}",
+    "HammerID": "10856",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11927",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal/Ammo Snake",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "10855",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11929",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Poison Snake",
+    "ShortName": "Poison",
+    "Color": "{green}",
+    "HammerID": "10854",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11931",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Torch",
+    "ShortName": "Torch",
+    "Color": "{orange}",
+    "HammerID": "10857",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Artefact",
+    "ShortName": "Artefact",
+    "Color": "{orange}",
+    "HammerID": "10853",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

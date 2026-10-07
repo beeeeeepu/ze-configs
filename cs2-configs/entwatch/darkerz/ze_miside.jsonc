@@ -1,0 +1,143 @@
+// REVIEW: Unsupported event OnFalse on 3535; OnPass handler 3466 used for cooldown; verify button behavior; OnPass handler 3211 used for cooldown; verify button behavior; OnPass handler 3435 used for cooldown; verify button behavior; OnPass handler 3195 used for cooldown; verify button behavior; OnPass handler 3227 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Beam Pistol",
+    "ShortName": "Beam",
+    "Color": "{grey}",
+    "HammerID": "3497",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3500",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3535",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heart Charm",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "3465",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3468",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Massager",
+    "ShortName": "Massager",
+    "Color": "{purple}",
+    "HammerID": "3204",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3206",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Toy Duck",
+    "ShortName": "Duck",
+    "Color": "{yellow}",
+    "HammerID": "3434",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3437",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Toy Hammer",
+    "ShortName": "Hammer",
+    "Color": "{red}",
+    "HammerID": "3176",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3194",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Chainsaw",
+    "ShortName": "ZM Chainsaw",
+    "Color": "{orange}",
+    "HammerID": "3220",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3235",
+    "AbilityList": [
+      {
+        "ButtonID": "3221",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Piece of Clothing",
+    "ShortName": "Clothing",
+    "Color": "{grey}",
+    "HammerID": "2321",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

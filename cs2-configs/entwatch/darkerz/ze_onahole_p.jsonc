@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Lampshade Ultima",
+    "ShortName": "Ultima",
+    "Color": "{pink}",
+    "HammerID": "92",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "94",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  }
+]

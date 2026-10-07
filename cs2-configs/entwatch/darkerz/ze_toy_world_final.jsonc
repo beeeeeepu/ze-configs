@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Mouse Trap",
+    "ShortName": "Trap",
+    "Color": "{olive}",
+    "HammerID": "684",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1159",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 42,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Water Gun",
+    "ShortName": "Water",
+    "Color": "{blue}",
+    "HammerID": "1040",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1134",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

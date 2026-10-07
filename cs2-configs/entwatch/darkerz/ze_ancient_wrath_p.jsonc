@@ -1,0 +1,93 @@
+// REVIEW: OnPass handler 16471 used for cooldown; verify button behavior; OnPass handler 16482 used for cooldown; verify button behavior; OnPass handler 16496 used for cooldown; verify button behavior; Unpaired OnPass handler 21058; OnPass handler 16541 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Metal Debris",
+    "ShortName": "Debris",
+    "Color": "{olive}",
+    "HammerID": "16469",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16472",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Supply Crate",
+    "ShortName": "Ammo",
+    "Color": "{olive}",
+    "HammerID": "16487",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16488",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Decelerating Star",
+    "ShortName": "Rift",
+    "Color": "{red}",
+    "HammerID": "16491",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16503",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Acid Launcher",
+    "ShortName": "Flamethrower",
+    "Color": "{orange}",
+    "HammerID": "21055",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Hovertex",
+    "ShortName": "Push",
+    "Color": "{purple}",
+    "HammerID": "16544",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "16551",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+// REVIEW: OnPass handler 4575 used for cooldown; verify button behavior; OnPass handler 2860 used for cooldown; verify button behavior; OnPass handler 6018 used for cooldown; verify button behavior; OnPass handler 4352 used for cooldown; verify button behavior; OnPass handler 3293 used for cooldown; verify button behavior; OnPass handler 1982 used for cooldown; verify button behavior; OnPass handler 2033 used for cooldown; verify button behavior; OnPass handler 2727 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Gravity",
+    "ShortName": "Gravity",
+    "Color": "{yellow}",
+    "HammerID": "2845",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2848",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "3169",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2857",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Push",
+    "ShortName": "Push",
+    "Color": "{green}",
+    "HammerID": "4310",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2511",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Shield",
+    "ShortName": "Shield",
+    "Color": "{blue}",
+    "HammerID": "3792",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2690",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Cube",
+    "ShortName": "ZM Cube",
+    "Color": "{yellow}",
+    "HammerID": "2941",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2008",
+    "AbilityList": [
+      {
+        "ButtonID": "3697",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{red}",
+    "HammerID": "4570",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3268",
+    "AbilityList": [
+      {
+        "ButtonID": "4356",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Reverse",
+    "ShortName": "ZM Reverse",
+    "Color": "{purple}",
+    "HammerID": "2029",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "999",
+    "AbilityList": [
+      {
+        "ButtonID": "4353",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Water",
+    "ShortName": "ZM Water",
+    "Color": "{darkblue}",
+    "HammerID": "2958",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "2735",
+    "AbilityList": [
+      {
+        "ButtonID": "2728",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  }
+]

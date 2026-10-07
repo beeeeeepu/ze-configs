@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Rocket",
+    "Color": "{red}",
+    "HammerID": "1562",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Rocket",
+    "Color": "{red}",
+    "HammerID": "1581",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Rocket Launcher",
+    "ShortName": "Rocket",
+    "Color": "{red}",
+    "HammerID": "1600",
+    "AllowTransfer": true,
+    "Chat": false,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

@@ -1,0 +1,317 @@
+// REVIEW: Unsupported event OnFalse on 7196; Unsupported event OnTrue on 7196; OnPass handler 5906 used for cooldown; verify button behavior; OnPass handler 2916 used for cooldown; verify button behavior; OnPass handler 3440 used for cooldown; verify button behavior; OnPass handler 3427 used for cooldown; verify button behavior; OnPass handler 3420 used for cooldown; verify button behavior; OnPass handler 3117 used for cooldown; verify button behavior; OnPass handler 2616 used for cooldown; verify button behavior; OnPass handler 2727 used for cooldown; verify button behavior; OnPass handler 5865 used for cooldown; verify button behavior; OnPass handler 3519 used for cooldown; verify button behavior; OnPass handler 2772 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Darkness",
+    "ShortName": "Darkness",
+    "Color": "{purple}",
+    "HammerID": "5443",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5444",
+    "AbilityList": []
+  },
+  {
+    "Name": "Brightness",
+    "ShortName": "Brightness",
+    "Color": "{white}",
+    "HammerID": "5439",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5440",
+    "AbilityList": []
+  },
+  {
+    "Name": "Earthly Star",
+    "ShortName": "Star",
+    "Color": "{white}",
+    "HammerID": "7189",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "7192",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7196",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "7196",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 1,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": true,
+        "Name": "Explosion"
+      }
+    ]
+  },
+  {
+    "Name": "Asylum",
+    "ShortName": "Asylum",
+    "Color": "{green}",
+    "HammerID": "5904",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5907",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Holy",
+    "ShortName": "Holy",
+    "Color": "{white}",
+    "HammerID": "6006",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2930",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{blue}",
+    "HammerID": "3441",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3445",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Double Damage",
+    "ShortName": "Damage",
+    "Color": "{purple}",
+    "HammerID": "3426",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3431",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Toxin",
+    "ShortName": "Toxin",
+    "Color": "{green}",
+    "HammerID": "3421",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3417",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Wisp",
+    "ShortName": "Wisp",
+    "Color": "{yellow}",
+    "HammerID": "3120",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "8198",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dawn",
+    "ShortName": "Dawn",
+    "Color": "{orange}",
+    "HammerID": "2615",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2618",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Planet Befall",
+    "ShortName": "Planet",
+    "Color": "{olive}",
+    "HammerID": "4857",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2450",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ichika",
+    "ShortName": "Ichika",
+    "Color": "{grey}",
+    "HammerID": "5003",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5004",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "5008",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false,
+        "MathID": "5008"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Rescue",
+    "ShortName": "ZM Rescue",
+    "Color": "{yellow}",
+    "HammerID": "5866",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "5861",
+    "AbilityList": [
+      {
+        "ButtonID": "5867",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal",
+    "ShortName": "ZM Heal",
+    "Color": "{white}",
+    "HammerID": "3511",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3512",
+    "AbilityList": [
+      {
+        "ButtonID": "3516",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Water",
+    "ShortName": "ZM Water",
+    "Color": "{blue}",
+    "HammerID": "6327",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6442",
+    "AbilityList": [
+      {
+        "ButtonID": "2751",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  }
+]

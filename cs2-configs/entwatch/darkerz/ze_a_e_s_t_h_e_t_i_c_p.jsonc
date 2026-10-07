@@ -1,0 +1,43 @@
+[
+  {
+    "Name": "KEY BLOCKER",
+    "ShortName": "KEY BLOCKER",
+    "Color": "{default}",
+    "HammerID": "-1",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1575",
+    "AbilityList": []
+  },
+  {
+    "Name": "Burger",
+    "ShortName": "Burger",
+    "Color": "{orange}",
+    "HammerID": "1433",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Penis",
+    "ShortName": "Penis",
+    "Color": "{pink}",
+    "HammerID": "1385",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Banana",
+    "ShortName": "Banana",
+    "Color": "{yellow}",
+    "HammerID": "1198",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Lamp",
+    "ShortName": "Lamp",
+    "Color": "{yellow}",
+    "HammerID": "276",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

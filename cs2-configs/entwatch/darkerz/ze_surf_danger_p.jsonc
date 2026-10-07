@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Cyka Blyat 1",
+    "ShortName": "Cyka Blyat 1",
+    "Color": "{red}",
+    "HammerID": "2220",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Cyka Blyat 2",
+    "ShortName": "Cyka Blyat 2",
+    "Color": "{red}",
+    "HammerID": "2219",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

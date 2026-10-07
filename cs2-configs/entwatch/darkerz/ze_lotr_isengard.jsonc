@@ -1,0 +1,97 @@
+// REVIEW: OnPass handler 20871 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Tree Ent",
+    "ShortName": "Ent",
+    "Color": "{green}",
+    "HammerID": "21604",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3483",
+    "AbilityList": [
+      {
+        "ButtonID": "21614",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 4,
+        "CoolDown": 20,
+        "Ignore": false,
+        "Name": "Rock"
+      }
+    ]
+  },
+  {
+    "Name": "Gandalf",
+    "ShortName": "Gandalf",
+    "Color": "{white}",
+    "HammerID": "21872",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "3600",
+    "AbilityList": []
+  },
+  {
+    "Name": "Heal Staff",
+    "ShortName": "Heal",
+    "Color": "{blue}",
+    "HammerID": "20877",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "20875",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Barricade",
+    "ShortName": "Barricade",
+    "Color": "{grey}",
+    "HammerID": "20532",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "20529",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Torch",
+    "ShortName": "Torch",
+    "Color": "{orange}",
+    "HammerID": "2643",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Spider",
+    "ShortName": "ZM Spider",
+    "Color": "{grey}",
+    "HammerID": "21371",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "20295",
+    "AbilityList": []
+  }
+]

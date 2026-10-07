@@ -1,0 +1,144 @@
+// REVIEW: OnPass handler 2351 used for cooldown; verify button behavior; OnPass handler 2356 used for cooldown; verify button behavior; OnPass handler 2339 used for cooldown; verify button behavior; OnPass handler 2350 used for cooldown; verify button behavior; OnPass handler 2352 used for cooldown; verify button behavior; Unsupported event OnCase16 on 2781; Unsupported event OnTrigger on 72
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{yellow}",
+    "HammerID": "75",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "73",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ammo",
+    "ShortName": "Ammo",
+    "Color": "{olive}",
+    "HammerID": "822",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "819",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fire Barrel",
+    "ShortName": "Barrel",
+    "Color": "{orange}",
+    "HammerID": "51",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "54",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Freeze Bottle",
+    "ShortName": "Freeze",
+    "Color": "{blue}",
+    "HammerID": "57",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "59",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Laser Door",
+    "ShortName": "Laser",
+    "Color": "{green}",
+    "HammerID": "62",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "64",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "DJ",
+    "ShortName": "DJ",
+    "Color": "{grey}",
+    "HammerID": "438",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "2781",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Suicidal Zombie",
+    "ShortName": "ZM Suicide",
+    "Color": "{red}",
+    "HammerID": "71",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "66",
+    "AbilityList": [
+      {
+        "ButtonID": "72",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  }
+]

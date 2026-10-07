@@ -1,0 +1,646 @@
+// REVIEW: OnPass handler 613 used for cooldown; verify button behavior; OnPass handler 617 used for cooldown; verify button behavior; OnPass handler 585 used for cooldown; verify button behavior; OnPass handler 170 used for cooldown; verify button behavior; OnPass handler 184 used for cooldown; verify button behavior; OnPass handler 265 used for cooldown; verify button behavior; OnPass handler 355 used for cooldown; verify button behavior; OnPass handler 643 used for cooldown; verify button behavior; OnPass handler 334 used for cooldown; verify button behavior; OnPass handler 219 used for cooldown; verify button behavior; OnPass handler 242 used for cooldown; verify button behavior; OnPass handler 338 used for cooldown; verify button behavior; OnPass handler 155 used for cooldown; verify button behavior; OnPass handler 159 used for cooldown; verify button behavior; Unsupported event OnTrigger on 130; Unsupported event OnTrigger on 287; OnPass handler 510 used for cooldown; verify button behavior; Unsupported event OnTrigger on 280; Unsupported event OnTrigger on 279; Unsupported event OnTrigger on 53; Unsupported event OnTrigger on 141; Unsupported event OnTrigger on 215; Unsupported event OnTrigger on 260; OnPass handler 562 used for cooldown; verify button behavior; OnPass handler 572 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Heal Magick",
+    "ShortName": "Heal",
+    "Color": "{white}",
+    "HammerID": "611",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "615",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Thunder Magick",
+    "ShortName": "Thunder",
+    "Color": "{blue}",
+    "HammerID": "609",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "621",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sand Magick",
+    "ShortName": "Sand",
+    "Color": "{yellow}",
+    "HammerID": "586",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "588",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Underworld Rod",
+    "ShortName": "Rod",
+    "Color": "{grey}",
+    "HammerID": "172",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "167",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Silver Mace",
+    "ShortName": "Mace",
+    "Color": "{blue}",
+    "HammerID": "183",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "186",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 90,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Chaos Blade",
+    "ShortName": "Chaos",
+    "Color": "{green}",
+    "HammerID": "190",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "262",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gunblade",
+    "ShortName": "Gunblade",
+    "Color": "{grey}",
+    "HammerID": "346",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "356",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Penetrator Crossbow",
+    "ShortName": "Crossbow",
+    "Color": "{grey}",
+    "HammerID": "641",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "644",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ensanguined Shield",
+    "ShortName": "Shield",
+    "Color": "{yellow}",
+    "HammerID": "608",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "603",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "639",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 75,
+        "Ignore": false,
+        "MathID": "639"
+      }
+    ]
+  },
+  {
+    "Name": "Ultimate Blade (Ammo)",
+    "ShortName": "Ammo",
+    "Color": "{yellow}",
+    "HammerID": "648",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "649",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "571",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "MathID": "571"
+      }
+    ]
+  },
+  {
+    "Name": "Sword of Kings (Ultima)",
+    "ShortName": "Ultima",
+    "Color": "{yellow}",
+    "HammerID": "333",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "331",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 18.5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "HP Potion",
+    "ShortName": "HP",
+    "Color": "{grey}",
+    "HammerID": "223",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "221",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Haste Potion",
+    "ShortName": "Haste",
+    "Color": "{grey}",
+    "HammerID": "244",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "239",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Betelgeuse",
+    "ShortName": "Betelgeuse",
+    "Color": "{grey}",
+    "HammerID": "340",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "341",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cactus Summon",
+    "ShortName": "Cactus",
+    "Color": "{green}",
+    "HammerID": "156",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "151",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "King Bomb Summon",
+    "ShortName": "Bomb",
+    "Color": "{darkred}",
+    "HammerID": "162",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "163",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Flame Magick",
+    "ShortName": "ZM FIre",
+    "Color": "{orange}",
+    "HammerID": "129",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1365",
+    "AbilityList": [
+      {
+        "ButtonID": "127",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "130",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Fear Magick",
+    "ShortName": "ZM Fear",
+    "Color": "{pink}",
+    "HammerID": "286",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1417",
+    "AbilityList": [
+      {
+        "ButtonID": "284",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "287",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Heal Magick",
+    "ShortName": "ZM Heal",
+    "Color": "{yellow}",
+    "HammerID": "514",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1429",
+    "AbilityList": [
+      {
+        "ButtonID": "511",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Gravity Magick",
+    "ShortName": "ZM Gravity",
+    "Color": "{purple}",
+    "HammerID": "547",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1437",
+    "AbilityList": [
+      {
+        "ButtonID": "542",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "280",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 65,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Warp Magick",
+    "ShortName": "ZM Warp",
+    "Color": "{darkred}",
+    "HammerID": "553",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1455",
+    "AbilityList": [
+      {
+        "ButtonID": "548",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "279",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Critical Exploiter",
+    "ShortName": "ZM Exploit",
+    "Color": "{red}",
+    "HammerID": "540",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1433",
+    "AbilityList": [
+      {
+        "ButtonID": "535",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "53",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Mateus Spear",
+    "ShortName": "ZM Mateus",
+    "Color": "{darkblue}",
+    "HammerID": "145",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1369",
+    "AbilityList": [
+      {
+        "ButtonID": "143",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "141",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Belias Spear",
+    "ShortName": "ZM Belias",
+    "Color": "{orange}",
+    "HammerID": "250",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1405",
+    "AbilityList": [
+      {
+        "ButtonID": "246",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "215",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Highway Star",
+    "ShortName": "ZM Star",
+    "Color": "{grey}",
+    "HammerID": "251",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1407",
+    "AbilityList": [
+      {
+        "ButtonID": "253",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "260",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Zargabaath Sword",
+    "ShortName": "ZM Zargabaath",
+    "Color": "{grey}",
+    "HammerID": "563",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1465",
+    "AbilityList": [
+      {
+        "ButtonID": "558",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Bergan Sword",
+    "ShortName": "ZM Bergan",
+    "Color": "{grey}",
+    "HammerID": "577",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1469",
+    "AbilityList": [
+      {
+        "ButtonID": "575",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false
+      }
+    ]
+  }
+]

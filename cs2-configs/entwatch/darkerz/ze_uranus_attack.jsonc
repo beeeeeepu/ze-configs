@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "Crank",
+    "ShortName": "Crank",
+    "Color": "{red}",
+    "HammerID": "13551",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

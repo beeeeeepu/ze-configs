@@ -1,0 +1,366 @@
+// REVIEW: Unsupported event OnTrigger on 29347; Unsupported event OnTrigger on 29504; Unsupported event OnTrigger on 29506; Unsupported event OnTrigger on 29437; Unsupported event OnTrigger on 29451; Unsupported event OnTrigger on 29450; Unsupported event OnTrigger on 29438; Unsupported event OnTrigger on 29383; Unsupported event OnTrigger on 29378; Unsupported event OnTrigger on 29403; Unsupported event OnTrigger on 29412; Unsupported event OnTrigger on 1487; Unsupported event OnTrigger on 29229; Unsupported event OnTrigger on 29237; Unsupported event OnTrigger on 29184; Unsupported event OnTrigger on 29185; Unsupported event OnTrigger on 29270; Unsupported event OnTrigger on 29271; Unsupported event OnTrigger on 29317
+[
+  {
+    "Name": "Nightingale",
+    "ShortName": "Nightingale",
+    "Color": "{silver}",
+    "HammerID": "29345",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "992",
+    "AbilityList": [
+      {
+        "ButtonID": "29347",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Healmage",
+    "ShortName": "Healmage",
+    "Color": "{blue}",
+    "HammerID": "29494",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "984",
+    "AbilityList": [
+      {
+        "ButtonID": "29504",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29506",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dovahkiin",
+    "ShortName": "Dovahkiin",
+    "Color": "{darkblue}",
+    "HammerID": "29435",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "982",
+    "AbilityList": [
+      {
+        "ButtonID": "29437",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 3,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29451",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "Name": "Fire"
+      },
+      {
+        "ButtonID": "29450",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false,
+        "Name": "Freeze"
+      },
+      {
+        "ButtonID": "29438",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false,
+        "Name": "Push"
+      }
+    ]
+  },
+  {
+    "Name": "Archmage",
+    "ShortName": "Archmage",
+    "Color": "{orange}",
+    "HammerID": "29372",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1020",
+    "AbilityList": [
+      {
+        "ButtonID": "29383",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 9,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29378",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Daedric",
+    "ShortName": "Daedric",
+    "Color": "{red}",
+    "HammerID": "29402",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "979",
+    "AbilityList": [
+      {
+        "ButtonID": "29403",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29412",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Freeze Staff",
+    "ShortName": "Freeze",
+    "Color": "{blue}",
+    "HammerID": "225",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "703",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Heal Staff",
+    "ShortName": "Heal",
+    "Color": "{blue}",
+    "HammerID": "401",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "402",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 2,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Lever",
+    "ShortName": "Lever",
+    "Color": "{white}",
+    "HammerID": "2276",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Torch",
+    "ShortName": "Torch",
+    "Color": "{white}",
+    "HammerID": "2132",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Elder Scroll",
+    "ShortName": "Scroll",
+    "Color": "{yellow}",
+    "HammerID": "406",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Elder Scroll",
+    "ShortName": "Scroll",
+    "Color": "{yellow}",
+    "HammerID": "723",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1487",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Wolf",
+    "ShortName": "ZM Wolf",
+    "Color": "{darkred}",
+    "HammerID": "29224",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "987",
+    "AbilityList": [
+      {
+        "ButtonID": "29229",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29237",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 25,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Troll",
+    "ShortName": "ZM Troll",
+    "Color": "{darkred}",
+    "HammerID": "29179",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "990",
+    "AbilityList": [
+      {
+        "ButtonID": "29184",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29185",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Giant",
+    "ShortName": "ZM Giant",
+    "Color": "{darkred}",
+    "HammerID": "29267",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "994",
+    "AbilityList": [
+      {
+        "ButtonID": "29270",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "29271",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Dragonpriest",
+    "ShortName": "ZM Dragonpriest",
+    "Color": "{purple}",
+    "HammerID": "29313",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1088",
+    "AbilityList": [
+      {
+        "ButtonID": "29317",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

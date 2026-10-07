@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Basketball",
+    "ShortName": "Basketball",
+    "Color": "{orange}",
+    "HammerID": "259",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Penis",
+    "ShortName": "Penis",
+    "Color": "{pink}",
+    "HammerID": "13",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

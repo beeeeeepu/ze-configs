@@ -1,0 +1,105 @@
+[
+  {
+    "Name": "SCP-714 - The Jaded Ring",
+    "ShortName": "Ammo",
+    "Color": "{green}",
+    "HammerID": "5131",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5136",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 80,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "SCP-500 - Panacea",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "5105",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "5162",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie SCP-106 - The Old Man",
+    "ShortName": "ZM Old Man",
+    "Color": "{grey}",
+    "HammerID": "1436",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1434",
+    "AbilityList": [
+      {
+        "ButtonID": "5288",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie SCP-049 - The Plague Doctor",
+    "ShortName": "ZM Plague Doctor",
+    "Color": "{grey}",
+    "HammerID": "1321",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1319",
+    "AbilityList": [
+      {
+        "ButtonID": "5164",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie SCP-096 - The Shy Guy",
+    "ShortName": "ZM Shy Guy",
+    "Color": "{grey}",
+    "HammerID": "1329",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "1327",
+    "AbilityList": [
+      {
+        "ButtonID": "5166",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100,
+        "Ignore": false
+      }
+    ]
+  }
+]

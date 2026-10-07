@@ -1,0 +1,488 @@
+// REVIEW: OnPass handler 11269 used for cooldown; verify button behavior; OnPass handler 11383 used for cooldown; verify button behavior; OnPass handler 11483 used for cooldown; verify button behavior; OnPass handler 12867 used for cooldown; verify button behavior; OnPass handler 11262 used for cooldown; verify button behavior; OnPass handler 11455 used for cooldown; verify button behavior; OnPass handler 11440 used for cooldown; verify button behavior; OnPass handler 11430 used for cooldown; verify button behavior
+[
+  {
+    "Name": "Howling Tempest",
+    "ShortName": "Tempest",
+    "Color": "{green}",
+    "HammerID": "12872",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "12875",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "12862",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "MathID": "12862"
+      }
+    ]
+  },
+  {
+    "Name": "Ice Stormcallers Wrath",
+    "ShortName": "Wrath",
+    "Color": "{blue}",
+    "HammerID": "11243",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11241",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "12955",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false,
+        "MathID": "12955"
+      }
+    ]
+  },
+  {
+    "Name": "Fire Magic Spell",
+    "ShortName": "Fire",
+    "Color": "{orange}",
+    "HammerID": "11210",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11211",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "12957",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false,
+        "MathID": "12957"
+      }
+    ]
+  },
+  {
+    "Name": "Ice Magic Spell",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "11204",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11205",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "12956",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false,
+        "MathID": "12956"
+      }
+    ]
+  },
+  {
+    "Name": "Explosive Barrel",
+    "ShortName": "Barrel",
+    "Color": "{red}",
+    "HammerID": "11412",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11409",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "12860",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false,
+        "MathID": "12860"
+      }
+    ]
+  },
+  {
+    "Name": "Ice Bow",
+    "ShortName": "Ice Bow",
+    "Color": "{blue}",
+    "HammerID": "11271",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11273",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 30,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Explosive Bow",
+    "ShortName": "Explosive Bow",
+    "Color": "{red}",
+    "HammerID": "11376",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11357",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 9,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Nade Box",
+    "ShortName": "Grenades",
+    "Color": "{red}",
+    "HammerID": "11484",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11487",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 50,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Spear",
+    "ShortName": "Spear",
+    "Color": "{grey}",
+    "HammerID": "12870",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "12863",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 4.5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Bow",
+    "ShortName": "Bow",
+    "Color": "{grey}",
+    "HammerID": "11387",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11389",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Holy Heal",
+    "ShortName": "Holy",
+    "Color": "{white}",
+    "HammerID": "11259",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11260",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Healing Potion",
+    "ShortName": "Heal",
+    "Color": "{pink}",
+    "HammerID": "11425",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11423",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Potion",
+    "ShortName": "Ammo",
+    "Color": "{blue}",
+    "HammerID": "11439",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11441",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Speed Potion",
+    "ShortName": "Speed",
+    "Color": "{yellow}",
+    "HammerID": "11433",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "11431",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 4,
+        "MaxUses": 1,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Burning Curse Skull",
+    "ShortName": "ZM Curse",
+    "Color": "{darkred}",
+    "HammerID": "11372",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11352",
+    "AbilityList": [
+      {
+        "ButtonID": "11369",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "11355",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "11355"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Frozen Skull",
+    "ShortName": "ZM Skull",
+    "Color": "{blue}",
+    "HammerID": "11306",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11308",
+    "AbilityList": [
+      {
+        "ButtonID": "11348",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "11351",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 35,
+        "Ignore": false,
+        "MathID": "11351"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Toxic Orb",
+    "ShortName": "ZM Orb",
+    "Color": "{green}",
+    "HammerID": "11286",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11288",
+    "AbilityList": [
+      {
+        "ButtonID": "11283",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "11329",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "MathID": "11329"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Plague Mist",
+    "ShortName": "ZM Mist",
+    "Color": "{purple}",
+    "HammerID": "11324",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11322",
+    "AbilityList": [
+      {
+        "ButtonID": "11320",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "11304",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 35,
+        "Ignore": false,
+        "MathID": "11304"
+      }
+    ]
+  },
+  {
+    "Name": "Zombie Frostbite Storm",
+    "ShortName": "ZM Frostbite",
+    "Color": "{blue}",
+    "HammerID": "11229",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "11227",
+    "AbilityList": [
+      {
+        "ButtonID": "11225",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "11327",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 70,
+        "Ignore": false,
+        "MathID": "11327"
+      }
+    ]
+  }
+]

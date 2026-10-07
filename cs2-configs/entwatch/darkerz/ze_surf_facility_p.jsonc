@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Surfboard 1",
+    "ShortName": "Surfboard 1",
+    "Color": "{white}",
+    "HammerID": "825",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Surfboard 2",
+    "ShortName": "Surfboard 2",
+    "Color": "{red}",
+    "HammerID": "794",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Surfboard 3",
+    "ShortName": "Surfboard 3",
+    "Color": "{green}",
+    "HammerID": "795",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Surfboard 4",
+    "ShortName": "Surfboard 4",
+    "Color": "{pink}",
+    "HammerID": "836",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Surfboard 5",
+    "ShortName": "Surfboard 5",
+    "Color": "{grey}",
+    "HammerID": "847",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Surfboard 6",
+    "ShortName": "Surfboard 6",
+    "Color": "{blue}",
+    "HammerID": "867",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Surfboard 7",
+    "ShortName": "Surfboard 7",
+    "Color": "{orange}",
+    "HammerID": "887",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

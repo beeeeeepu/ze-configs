@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Cabbage of Regeneration",
+    "ShortName": "Cabbage",
+    "Color": "{green}",
+    "HammerID": "1717",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Green Paint",
+    "ShortName": "Green Paint",
+    "Color": "{green}",
+    "HammerID": "516",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Red Paint",
+    "ShortName": "Red Paint",
+    "Color": "{red}",
+    "HammerID": "513",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

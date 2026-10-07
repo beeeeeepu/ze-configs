@@ -1,0 +1,226 @@
+[
+  {
+    "Name": "Insect Swarm Plasmid",
+    "ShortName": "Insect Swarm",
+    "Color": "{green}",
+    "HammerID": "19209",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "18220",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "19046",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "19046"
+      }
+    ]
+  },
+  {
+    "Name": "Electro Bolt Plasmid",
+    "ShortName": "Electro Bolt",
+    "Color": "{blue}",
+    "HammerID": "19212",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "18285",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "19065",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 11,
+        "Ignore": false,
+        "MathID": "19065"
+      }
+    ]
+  },
+  {
+    "Name": "Incinerate Plasmid",
+    "ShortName": "Incinerate",
+    "Color": "{orange}",
+    "HammerID": "19211",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "18283",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "19064",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false,
+        "MathID": "19064"
+      }
+    ]
+  },
+  {
+    "Name": "Sonic Boom Plasmid",
+    "ShortName": "Sonic Boom",
+    "Color": "{grey}",
+    "HammerID": "19210",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "18281",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "19063",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "19063"
+      }
+    ]
+  },
+  {
+    "Name": "Gravity Well Plasmid",
+    "ShortName": "Gravity Well",
+    "Color": "{white}",
+    "HammerID": "19208",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "18277",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "19051",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 18,
+        "Ignore": false,
+        "MathID": "19051"
+      }
+    ]
+  },
+  {
+    "Name": "Winter Blast Plasmid",
+    "ShortName": "Winter Blast",
+    "Color": "{blue}",
+    "HammerID": "19207",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "18275",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "19049",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 13,
+        "Ignore": false,
+        "MathID": "19049"
+      }
+    ]
+  },
+  {
+    "Name": "Gene Tonic: Flash Flare",
+    "ShortName": "Flash Flare",
+    "Color": "{white}",
+    "HammerID": "19216",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "17440",
+    "AbilityList": []
+  },
+  {
+    "Name": "Gene Tonic: Static Shell",
+    "ShortName": "Static Shell",
+    "Color": "{green}",
+    "HammerID": "19215",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "17438",
+    "AbilityList": []
+  },
+  {
+    "Name": "Little Sister",
+    "ShortName": "Sister",
+    "Color": "{darkred}",
+    "HammerID": "19214",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "17436",
+    "AbilityList": []
+  },
+  {
+    "Name": "The Big Daddy",
+    "ShortName": "Daddy",
+    "Color": "{darkred}",
+    "HammerID": "19213",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "17434",
+    "AbilityList": []
+  }
+]

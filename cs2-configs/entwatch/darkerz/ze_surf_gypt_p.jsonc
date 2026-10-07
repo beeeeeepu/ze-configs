@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Red Trail",
+    "ShortName": "Red Trail",
+    "Color": "{red}",
+    "HammerID": "1293",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Green Trail",
+    "ShortName": "Green Trail",
+    "Color": "{green}",
+    "HammerID": "1295",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Pompje's Pizza Boye",
+    "ShortName": "Pizza",
+    "Color": "{yellow}",
+    "HammerID": "1289",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Blue Trail",
+    "ShortName": "Blue Trail",
+    "Color": "{blue}",
+    "HammerID": "1007",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Surf Trail",
+    "ShortName": "Trail",
+    "Color": "{grey}",
+    "HammerID": "27",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Surf Trail",
+    "ShortName": "ZM Trail",
+    "Color": "{grey}",
+    "HammerID": "17373",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "17505",
+    "AbilityList": []
+  }
+]

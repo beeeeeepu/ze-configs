@@ -1,0 +1,303 @@
+// REVIEW: OnPass handler 3705 used for cooldown; verify button behavior; OnPass handler 3671 used for cooldown; verify button behavior; Unsupported counter offset on 3685
+[
+  {
+    "Name": "Oreo Heal",
+    "ShortName": "Heal",
+    "Color": "{darkblue}",
+    "HammerID": "3640",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3635",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "522",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false,
+        "MathID": "522"
+      }
+    ]
+  },
+  {
+    "Name": "Ammo Box",
+    "ShortName": "Ammo",
+    "Color": "{orange}",
+    "HammerID": "3699",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3700",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Push Gun",
+    "ShortName": "Push",
+    "Color": "{white}",
+    "HammerID": "3664",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3665",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 35,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Flamethrower",
+    "ShortName": "Flame",
+    "Color": "{red}",
+    "HammerID": "3686",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3687",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3696",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false,
+        "MathID": "3696"
+      }
+    ]
+  },
+  {
+    "Name": "Electro Gun",
+    "ShortName": "Electro",
+    "Color": "{red}",
+    "HammerID": "3673",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3679",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3685",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false,
+        "MathID": "3685"
+      }
+    ]
+  },
+  {
+    "Name": "Pipe Bombs",
+    "ShortName": "PipeBomb",
+    "Color": "{yellow}",
+    "HammerID": "3717",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3718",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3729",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 6,
+        "MaxUses": 0,
+        "CoolDown": 1.5,
+        "Ignore": false,
+        "MathID": "3729"
+      }
+    ]
+  },
+  {
+    "Name": "Lego Maker",
+    "ShortName": "Lego",
+    "Color": "{green}",
+    "HammerID": "3657",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3652",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3654",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false,
+        "MathID": "3654"
+      }
+    ]
+  },
+  {
+    "Name": "EyeTech Launcher",
+    "ShortName": "EyeTech Launcher",
+    "Color": "{darkred}",
+    "HammerID": "3710",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3711",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "3716",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 7,
+        "MaxUses": 0,
+        "CoolDown": 2,
+        "Ignore": false,
+        "MathID": "3716"
+      }
+    ]
+  },
+  {
+    "Name": "EyeTech Cannon",
+    "ShortName": "Cannon",
+    "Color": "{red2}",
+    "HammerID": "3742",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "3743",
+        "ButtonClass": "func_button",
+        "Chat_Uses": false,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Banana",
+    "ShortName": "Banana",
+    "Color": "{yellow}",
+    "HammerID": "4377",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "4378",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Steam",
+    "ShortName": "Steam",
+    "Color": "{white}",
+    "HammerID": "4386",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "4387",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cyka",
+    "ShortName": "Cyka",
+    "Color": "{white}",
+    "HammerID": "330",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": false,
+    "AbilityList": [
+      {
+        "ButtonID": "332",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "Name": "Heal",
+    "ShortName": "Heal",
+    "Color": "{red}",
+    "HammerID": "499",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Short Spear",
+    "ShortName": "ZM S.Spear",
+    "Color": "{grey}",
+    "HammerID": "329",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Medium Spear",
+    "ShortName": "ZM M.Spear",
+    "Color": "{grey}",
+    "HammerID": "330",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Long Spear",
+    "ShortName": "ZM L.Spear",
+    "Color": "{grey}",
+    "HammerID": "331",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Very Long Spear",
+    "ShortName": "ZM VL.Spear",
+    "Color": "{grey}",
+    "HammerID": "332",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "Ikea Castle Assembly Box",
+    "ShortName": "Box",
+    "Color": "{grey}",
+    "HammerID": "8953",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 1",
+    "ShortName": "Patreon 1",
+    "Color": "{grey}",
+    "HammerID": "2287",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 2",
+    "ShortName": "Patreon 2",
+    "Color": "{grey}",
+    "HammerID": "1693",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 3",
+    "ShortName": "Patreon 3",
+    "Color": "{grey}",
+    "HammerID": "2967",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 4",
+    "ShortName": "Patreon 4",
+    "Color": "{grey}",
+    "HammerID": "2967",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 5",
+    "ShortName": "Patreon 5",
+    "Color": "{grey}",
+    "HammerID": "2763",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 6",
+    "ShortName": "Patreon 6",
+    "Color": "{grey}",
+    "HammerID": "2708",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 7",
+    "ShortName": "Patreon 7",
+    "Color": "{grey}",
+    "HammerID": "2482",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  },
+  {
+    "Name": "Patreon 8",
+    "ShortName": "Patreon 8",
+    "Color": "{grey}",
+    "HammerID": "28",
+    "AllowTransfer": false,
+    "Chat": false,
+    "Hud": false,
+    "AbilityList": []
+  }
+]

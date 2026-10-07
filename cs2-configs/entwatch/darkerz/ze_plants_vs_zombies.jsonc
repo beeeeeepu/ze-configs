@@ -1,0 +1,648 @@
+// REVIEW: Unsupported event OnTrigger on 1054; Unsupported event OnTrigger on 1630; Unsupported event OnTrigger on 1654; Unsupported event OnTrigger on 1142; OnPass handler 1558 used for cooldown; verify button behavior; Unsupported event OnTrigger on 1405; OnPass handler 12688 used for cooldown; verify button behavior; Unsupported event OnTrigger on 1183; Unsupported event OnTrigger on 1082; Unsupported event OnTrigger on 1600; Unsupported event OnTrigger on 1497; Unsupported event OnTrigger on 1467; Unsupported event OnTrigger on 1442; Unsupported event OnTrigger on 1416; Unsupported event OnTrigger on 1306; Unsupported event OnTrigger on 1288; Unsupported event OnTrigger on 1113; Unsupported event OnTrigger on 7755; Unsupported event OnTrigger on 7747; Unsupported event OnTrigger on 7741; Unsupported event OnTrigger on 7724; Unsupported event OnTrigger on 7713; Unsupported event OnTrigger on 7696
+[
+  {
+    "Name": "Cactus",
+    "ShortName": "Cactus",
+    "Color": "{green}",
+    "HammerID": "1386",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": []
+  },
+  {
+    "Name": "Peashooter",
+    "ShortName": "Peashooter",
+    "Color": "{green}",
+    "HammerID": "1048",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1049",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1054",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Double Peashooter",
+    "ShortName": "Double",
+    "Color": "{green}",
+    "HammerID": "1637",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1626",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1630",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Gatling Peashooter",
+    "ShortName": "Gatling",
+    "Color": "{green}",
+    "HammerID": "1652",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1650",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1654",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice Peashooter",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "1134",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1136",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1142",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cob Cannon",
+    "ShortName": "Cob",
+    "Color": "{yellow}",
+    "HammerID": "1564",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1560",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Cherry-Bomb",
+    "ShortName": "Cherry",
+    "Color": "{darkred}",
+    "HammerID": "1399",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1392",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1405",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Squash",
+    "ShortName": "Squash",
+    "Color": "{green}",
+    "HammerID": "12694",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "12690",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Walnut",
+    "ShortName": "Walnut",
+    "Color": "{olive}",
+    "HammerID": "1180",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1178",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1183",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sunflower",
+    "ShortName": "Sunflower",
+    "Color": "{yellow}",
+    "HammerID": "1073",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1074",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1082",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fume-Shroom",
+    "ShortName": "Fume",
+    "Color": "{purple}",
+    "HammerID": "1595",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1596",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1600",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Sun-Shroom",
+    "ShortName": "Sun",
+    "Color": "{yellow}",
+    "HammerID": "1495",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1503",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1497",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 8,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Hypno-Shroom",
+    "ShortName": "Hypno",
+    "Color": "{white}",
+    "HammerID": "1461",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1458",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1467",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Doom-Shroom",
+    "ShortName": "Doom",
+    "Color": "{grey}",
+    "HammerID": "1447",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1445",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1442",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 100,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Ice-Shroom",
+    "ShortName": "Ice",
+    "Color": "{blue}",
+    "HammerID": "1409",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1417",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1416",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Puff-Shroom",
+    "ShortName": "Puff",
+    "Color": "{purple}",
+    "HammerID": "1304",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1307",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1306",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 15,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Fan",
+    "ShortName": "Fan",
+    "Color": "{grey}",
+    "HammerID": "1283",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1289",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1288",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Potato",
+    "ShortName": "Potato",
+    "Color": "{olive}",
+    "HammerID": "1106",
+    "AllowTransfer": true,
+    "Chat": true,
+    "Hud": true,
+    "AbilityList": [
+      {
+        "ButtonID": "1107",
+        "ButtonClass": "func_button",
+        "Chat_Uses": true,
+        "Mode": 0,
+        "MaxUses": 0,
+        "CoolDown": 0,
+        "Ignore": false
+      },
+      {
+        "ButtonID": "1113",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Football Zombie",
+    "ShortName": "ZM Football",
+    "Color": "{darkred}",
+    "HammerID": "7758",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6487",
+    "AbilityList": [
+      {
+        "ButtonID": "7755",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 20,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Dancing Zombie",
+    "ShortName": "ZM Dance",
+    "Color": "{darkred}",
+    "HammerID": "7752",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6481",
+    "AbilityList": [
+      {
+        "ButtonID": "7747",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false,
+        "Name": "Summon"
+      },
+      {
+        "ButtonID": "7741",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 40,
+        "Ignore": false,
+        "Name": "Dance"
+      }
+    ]
+  },
+  {
+    "Name": "Newspaper Zombie",
+    "ShortName": "ZM News",
+    "Color": "{white}",
+    "HammerID": "7737",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6475",
+    "AbilityList": []
+  },
+  {
+    "Name": "Pole Vaulting Zombie",
+    "ShortName": "ZM Pole Vault",
+    "Color": "{grey}",
+    "HammerID": "7730",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6477",
+    "AbilityList": [
+      {
+        "ButtonID": "7724",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 10,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Pogo Zombie",
+    "ShortName": "ZM Pogo",
+    "Color": "{grey}",
+    "HammerID": "7717",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6485",
+    "AbilityList": [
+      {
+        "ButtonID": "7713",
+        "ButtonClass": "",
+        "Chat_Uses": false,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 5,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Screen Door Zombie",
+    "ShortName": "ZM Door",
+    "Color": "{grey}",
+    "HammerID": "7710",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6479",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Yeti",
+    "ShortName": "ZM Yeti",
+    "Color": "{blue}",
+    "HammerID": "7700",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6483",
+    "AbilityList": [
+      {
+        "ButtonID": "7696",
+        "ButtonClass": "",
+        "Chat_Uses": true,
+        "Mode": 2,
+        "MaxUses": 0,
+        "CoolDown": 60,
+        "Ignore": false
+      }
+    ]
+  },
+  {
+    "Name": "Balloon Zombie",
+    "ShortName": "ZM Balloon",
+    "Color": "{red}",
+    "HammerID": "7682",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6489",
+    "AbilityList": []
+  },
+  {
+    "Name": "Zombie Bubble",
+    "ShortName": "ZM Bubble",
+    "Color": "{grey}",
+    "HammerID": "7658",
+    "AllowTransfer": false,
+    "Chat": true,
+    "Hud": true,
+    "TriggerID": "6500",
+    "AbilityList": []
+  }
+]
